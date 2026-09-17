@@ -1,0 +1,29 @@
+---
+{
+  "schema_version": "authorship/3.1.0",
+  "tlab_version": "0.12.1",
+  "base_commit_sha": "8d31c71337a43ed2388448238d1be776779927dd",
+  "prompts": {},
+  "changes": [
+    {
+      "old_path": "tauri-shell/sidecar/bridge.ts",
+      "new_path": "tauri-shell/sidecar/bridge.ts",
+      "additions": {
+        "human": 19
+      },
+      "deletions": {
+        "human": 6
+      }
+    },
+    {
+      "old_path": "tauri-shell/src/main.rs",
+      "new_path": "tauri-shell/src/main.rs",
+      "additions": {
+        "human": 38
+      },
+      "deletions": {
+        "human": 3
+      }
+    }
+  ]
+}
