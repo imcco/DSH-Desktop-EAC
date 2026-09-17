@@ -1,0 +1,913 @@
+[openclaw-bridge] generated bridge token: /Users/chongchen/.dsh/openclaw-bridge/token.txt
+[openclaw-bridge] mounted on http://127.0.0.1:59132/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59132/openclaw-bridge/health | wechat: http://127.0.0.1:59132/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+dsh web: http://127.0.0.1:59132
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+dsh web: http://127.0.0.1:59357
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+dsh web: http://127.0.0.1:59357
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-flash hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.3-codex-spark hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-6-astra hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= gpt-6-astra hasImage= false
+[picturereader] llm/stream fired, model= gpt-6-astra hasImage= false
+[picturereader] llm/stream fired, model= gpt-6-astra hasImage= false
+[picturereader] llm/stream fired, model= gpt-6-astra hasImage= false
+[picturereader] llm/stream fired, model= gpt-6-astra hasImage= false
+[picturereader] llm/stream fired, model= gpt-6-astra hasImage= false
+[picturereader] llm/stream fired, model= gpt-6-astra hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] llm/stream fired, model= Qwen/Qwen3.8-27B hasImage= false
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 2916 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+[picturereader] vision twin active on provider(s): cliproxyapi
+dsh web: http://127.0.0.1:59357
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+[picturereader] vision twin active on provider(s): cliproxyapi
+dsh web: http://127.0.0.1:59357
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+(node:33821) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= gpt-5.6-sol hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+[picturereader] vision twin active on provider(s): cliproxyapi
+dsh web: http://127.0.0.1:59357
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+(node:30671) ExperimentalWarning: stripTypeScriptTypes is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= qwen3.8-max hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= glm-5.3 hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[picturereader] llm/stream fired, model= deepseek-v4-pro hasImage= false
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+[picturereader] vision twin active on provider(s): cliproxyapi
+dsh web: http://127.0.0.1:59357
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+[picturereader] vision twin active on provider(s): cliproxyapi
+dsh web: http://127.0.0.1:59357
+[picturereader] models route: read 3055 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 3055 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[picturereader] models route: read 3055 bytes from /Users/chongchen/.dsh/picturereader-models.json
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+[picturereader] vision twin active on provider(s): cliproxyapi
+file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh-app-boot/lib/index.js:1545
+		throw new Error(`${binName}: ${stage}: ${detail}${stack}`, { cause });
+		      ^
+
+Error: dsh: plugin tree failed to load: failed to apply loader entry include (cordis:include): failed to import loader entry prompt-custom (@deepseek-ai/dsh-prompt-custom): The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+file:///Users/chongchen/.dsh/profiles/web-desktop/node_modules/@deepseek-ai/dsh-prompt-custom/lib/index.js:21
+import { PERSONA_SECTION, renderPrompt } from "@deepseek-ai/dsh-system-prompt";
+         ^^^^^^^^^^^^^^^
+SyntaxError: The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:274:41
+    at async Entry._init (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:522:39)
+    at async Entry.init (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:505:4)
+    at async Entry.update (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:426:37)
+    at async EntryGroup.create (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:65:4)
+    at async Promise.allSettled (index 177)
+    at async EntryGroup.update (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:97:21)
+    at boot (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh-app-boot/lib/index.js:1545:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async runProfile (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh/lib/profile-boot-Dk-7KqJc.js:311:14)
+    at async runCli (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh/lib/bin.js:146:4)
+    at async file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh/lib/bin.js:168:23 {
+  [cause]: Error: failed to apply loader entry include (cordis:include): failed to import loader entry prompt-custom (@deepseek-ai/dsh-prompt-custom): The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+      at updateError (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:309:9)
+      at Entry._init (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:529:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+    [cause]: Error: failed to import loader entry prompt-custom (@deepseek-ai/dsh-prompt-custom): The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+        at updateError (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:309:9)
+        at Entry._init (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:524:10)
+        at async Entry.init (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:505:4)
+        ... 3 lines matching cause stack trace ...
+        at async EntryGroup.update (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:97:21)
+        at async Include._apply (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh-app-boot/lib/index.js:240:3) {
+      [cause]: file:///Users/chongchen/.dsh/profiles/web-desktop/node_modules/@deepseek-ai/dsh-prompt-custom/lib/index.js:21
+      import { PERSONA_SECTION, renderPrompt } from "@deepseek-ai/dsh-system-prompt";
+               ^^^^^^^^^^^^^^^
+      SyntaxError: The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+          at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)
+          at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)
+          at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+          at async file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:274:41
+          at async Entry._init (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:522:39)
+          at async Entry.init (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:505:4)
+          at async Entry.update (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:426:37)
+          at async EntryGroup.create (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:65:4)
+          at async Promise.allSettled (index 177)
+          at async EntryGroup.update (file:///Applications/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:97:21)
+    }
+  }
+}
+
+Node.js v22.22.2
+[openclaw-bridge] mounted on http://127.0.0.1:59357/openclaw-bridge/v1/chat/completions | health: http://127.0.0.1:59357/openclaw-bridge/health | wechat: http://127.0.0.1:59357/openclaw-bridge/wechat/status | workspace: /Users/chongchen/.dsh/openclaw-bridge/workspace | token: enabled
+[openclaw-bridge] settings updated: {"model":"","token":"","workspace":"","allowlist":"","customBaseURL":"","customApiKey":"","customModel":""}
+[picturereader] vision twin active on provider(s): cliproxyapi
+file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh-app-boot/lib/index.js:1545
+		throw new Error(`${binName}: ${stage}: ${detail}${stack}`, { cause });
+		      ^
+
+Error: dsh: plugin tree failed to load: failed to apply loader entry include (cordis:include): failed to import loader entry prompt-custom (@deepseek-ai/dsh-prompt-custom): The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+file:///Users/chongchen/.dsh/profiles/web-desktop/node_modules/@deepseek-ai/dsh-prompt-custom/lib/index.js:21
+import { PERSONA_SECTION, renderPrompt } from "@deepseek-ai/dsh-system-prompt";
+         ^^^^^^^^^^^^^^^
+SyntaxError: The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+    at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)
+    at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+    at async file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:274:41
+    at async Entry._init (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:522:39)
+    at async Entry.init (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:505:4)
+    at async Entry.update (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:426:37)
+    at async EntryGroup.create (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:65:4)
+    at async Promise.allSettled (index 177)
+    at async EntryGroup.update (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:97:21)
+    at boot (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh-app-boot/lib/index.js:1545:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async runProfile (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh/lib/profile-boot-Dk-7KqJc.js:311:14)
+    at async runCli (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh/lib/bin.js:146:4)
+    at async file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh/lib/bin.js:168:23 {
+  [cause]: Error: failed to apply loader entry include (cordis:include): failed to import loader entry prompt-custom (@deepseek-ai/dsh-prompt-custom): The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+      at updateError (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:309:9)
+      at Entry._init (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:529:10)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+    [cause]: Error: failed to import loader entry prompt-custom (@deepseek-ai/dsh-prompt-custom): The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+        at updateError (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:309:9)
+        at Entry._init (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:524:10)
+        at async Entry.init (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:505:4)
+        ... 3 lines matching cause stack trace ...
+        at async EntryGroup.update (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:97:21)
+        at async Include._apply (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/dsh-app-boot/lib/index.js:240:3) {
+      [cause]: file:///Users/chongchen/.dsh/profiles/web-desktop/node_modules/@deepseek-ai/dsh-prompt-custom/lib/index.js:21
+      import { PERSONA_SECTION, renderPrompt } from "@deepseek-ai/dsh-system-prompt";
+               ^^^^^^^^^^^^^^^
+      SyntaxError: The requested module '@deepseek-ai/dsh-system-prompt' does not provide an export named 'PERSONA_SECTION'
+          at ModuleJob._instantiate (node:internal/modules/esm/module_job:226:21)
+          at async ModuleJob.run (node:internal/modules/esm/module_job:335:5)
+          at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:665:26)
+          at async file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:274:41
+          at async Entry._init (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:522:39)
+          at async Entry.init (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:505:4)
+          at async Entry.update (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:426:37)
+          at async EntryGroup.create (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:65:4)
+          at async Promise.allSettled (index 177)
+          at async EntryGroup.update (file:///Users/chongchen/Downloads/DSH-Desktop-EAC-aio-v6.9.3-alpha.1/tauri-shell/target/release/bundle/macos/Deepseek%20Harness%20EAC.app/Contents/Resources/dsh-desktop/node_modules/@deepseek-ai/cordis-plugin-loader/lib/index.js:97:21)
+    }
+  }
+}
+
+Node.js v22.22.2
