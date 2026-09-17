@@ -1,0 +1,6927 @@
+---
+{
+  "schema_version": "authorship/3.1.0",
+  "tlab_version": "0.12.1",
+  "base_commit_sha": "2b4283db205869ef7a4d2a43f8218a1d94fd5ec2",
+  "prompts": {},
+  "changes": [
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/SKILL.md",
+      "additions": {
+        "human": 122
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/agents/openai.yaml",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/architecture.md",
+      "additions": {
+        "human": 46
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/change-impact-matrix.md",
+      "additions": {
+        "human": 91
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/change-rules.psd1",
+      "additions": {
+        "human": 394
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/coding-conventions.md",
+      "additions": {
+        "human": 59
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/dependency-patches.md",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/dsh-plugins.md",
+      "additions": {
+        "human": 97
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/presets-and-profile.md",
+      "additions": {
+        "human": 64
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/product-services.md",
+      "additions": {
+        "human": 74
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/release-and-git.md",
+      "additions": {
+        "human": 49
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/reliability-and-security.md",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/sidecar-and-bridge.md",
+      "additions": {
+        "human": 81
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/skill-maintenance.md",
+      "additions": {
+        "human": 112
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/task-playbooks.md",
+      "additions": {
+        "human": 103
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/tauri-shell.md",
+      "additions": {
+        "human": 68
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/team-git-workflow.md",
+      "additions": {
+        "human": 255
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/testing-and-acceptance.md",
+      "additions": {
+        "human": 98
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/references/updates-and-packaging.md",
+      "additions": {
+        "human": 79
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/scripts/classify-change.ps1",
+      "additions": {
+        "human": 414
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/scripts/compare-skill-copy.ps1",
+      "additions": {
+        "human": 80
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/scripts/git-audit.ps1",
+      "additions": {
+        "human": 166
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/scripts/repo-inventory.ps1",
+      "additions": {
+        "human": 80
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/scripts/repo-preflight.ps1",
+      "additions": {
+        "human": 159
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/scripts/validate-skill.ps1",
+      "additions": {
+        "human": 646
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/scripts/verify-change.ps1",
+      "additions": {
+        "human": 619
+      }
+    },
+    {
+      "new_path": ".agents/skills/deepseek-harness-eac-dev/tests/run-tests.ps1",
+      "additions": {
+        "human": 293
+      }
+    },
+    {
+      "new_path": ".deprecated/workflows/ci.yml",
+      "additions": {
+        "human": 240
+      }
+    },
+    {
+      "new_path": ".deprecated/workflows/clear-cache.yml",
+      "additions": {
+        "human": 49
+      }
+    },
+    {
+      "new_path": ".deprecated/workflows/release-macos.yml",
+      "additions": {
+        "human": 220
+      }
+    },
+    {
+      "new_path": ".deprecated/workflows/release-tauri.yml",
+      "additions": {
+        "human": 280
+      }
+    },
+    {
+      "new_path": ".gitattributes",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/01-bug-report.yml",
+      "additions": {
+        "human": 98
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/02-feature-request.yml",
+      "additions": {
+        "human": 71
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/03-performance.yml",
+      "additions": {
+        "human": 59
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/04-documentation.yml",
+      "additions": {
+        "human": 57
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/05-bug-report_en.yml",
+      "additions": {
+        "human": 98
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/06-feature-request_en.yml",
+      "additions": {
+        "human": 71
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/07-performance_en.yml",
+      "additions": {
+        "human": 59
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/08-documentation_en.yml",
+      "additions": {
+        "human": 57
+      }
+    },
+    {
+      "new_path": ".github/ISSUE_TEMPLATE/config.yml",
+      "additions": {
+        "human": 14
+      }
+    },
+    {
+      "new_path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "additions": {
+        "human": 43
+      }
+    },
+    {
+      "new_path": ".gitignore",
+      "additions": {
+        "human": 52
+      }
+    },
+    {
+      "new_path": ".sync/plugins.json",
+      "additions": {
+        "human": 2202
+      }
+    },
+    {
+      "new_path": ".sync/plugins.lock.json",
+      "additions": {
+        "human": 1688
+      }
+    },
+    {
+      "new_path": ".sync/plugins.schema.json",
+      "additions": {
+        "human": 499
+      }
+    },
+    {
+      "new_path": ".sync/policies.json",
+      "additions": {
+        "human": 69
+      }
+    },
+    {
+      "new_path": "CONTRIBUTING.md",
+      "additions": {
+        "human": 79
+      }
+    },
+    {
+      "new_path": "LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "README.en.md",
+      "additions": {
+        "human": 412
+      }
+    },
+    {
+      "new_path": "README.md",
+      "additions": {
+        "human": 465
+      }
+    },
+    {
+      "new_path": "boot-smoke.js",
+      "additions": {
+        "human": 101
+      }
+    },
+    {
+      "new_path": "docs/HANDOVER-2026-08-29-5.3.3-batch1.md",
+      "additions": {
+        "human": 301
+      }
+    },
+    {
+      "new_path": "docs/HANDOVER-2026-08-30-5.3.5-batch.md",
+      "additions": {
+        "human": 228
+      }
+    },
+    {
+      "new_path": "docs/HANDOVER-2026-08-30-5.3.5-review-round2.md",
+      "additions": {
+        "human": 156
+      }
+    },
+    {
+      "new_path": "docs/HANDOVER.md",
+      "additions": {
+        "human": 62
+      }
+    },
+    {
+      "new_path": "docs/KERNEL-UPGRADE-012-NOTES.md",
+      "additions": {
+        "human": 60
+      }
+    },
+    {
+      "new_path": "docs/RELEASE-5.3.3-NOTES.md",
+      "additions": {
+        "human": 97
+      }
+    },
+    {
+      "new_path": "docs/adr/0001-logger-library.md",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "docs/adr/0002-shell-boundary-and-layering.md",
+      "additions": {
+        "human": 55
+      }
+    },
+    {
+      "new_path": "docs/adr/0003-plugin-isolation-architecture.md",
+      "additions": {
+        "human": 78
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-22-pre-tauri.md",
+      "additions": {
+        "human": 301
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-23-R5.md",
+      "additions": {
+        "human": 154
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-23-R6.md",
+      "additions": {
+        "human": 151
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-23-R7.md",
+      "additions": {
+        "human": 63
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-23.md",
+      "additions": {
+        "human": 157
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-24-R10.md",
+      "additions": {
+        "human": 196
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-24-R11.md",
+      "additions": {
+        "human": 157
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-24-R8.md",
+      "additions": {
+        "human": 92
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-24-R9.md",
+      "additions": {
+        "human": 116
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-2026-08-26-R13.md",
+      "additions": {
+        "human": 127
+      }
+    },
+    {
+      "new_path": "docs/archive/HANDOVER-TS-MIGRATION.md",
+      "additions": {
+        "human": 322
+      }
+    },
+    {
+      "new_path": "docs/archive/MOBILE-CLIENT-DEV-SPEC.md",
+      "additions": {
+        "human": 252
+      }
+    },
+    {
+      "new_path": "docs/archive/P5-regression-matrix.md",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "docs/archive/upgrade-test-441.js",
+      "additions": {
+        "human": 89
+      }
+    },
+    {
+      "new_path": "docs/feature-pack-spec.md",
+      "additions": {
+        "human": 161
+      }
+    },
+    {
+      "new_path": "docs/macos-smoke-report-2026-09-17-local.md",
+      "additions": {
+        "human": 166
+      }
+    },
+    {
+      "new_path": "docs/macos-smoke-report.md",
+      "additions": {
+        "human": 80
+      }
+    },
+    {
+      "new_path": "docs/schemas/feature-pack-pack.json",
+      "additions": {
+        "human": 121
+      }
+    },
+    {
+      "new_path": "docs/superpowers/plans/2026-08-21-bug58-54-fix.md",
+      "additions": {
+        "human": 80
+      }
+    },
+    {
+      "new_path": "docs/superpowers/plans/2026-08-25-linux-desktop-support-checklist.md",
+      "additions": {
+        "human": 69
+      }
+    },
+    {
+      "new_path": "docs/superpowers/plans/2026-08-25-linux-desktop-support-tasks.md",
+      "additions": {
+        "human": 114
+      }
+    },
+    {
+      "new_path": "docs/superpowers/plans/2026-08-25-linux-desktop-support-tdd.md",
+      "additions": {
+        "human": 95
+      }
+    },
+    {
+      "new_path": "docs/superpowers/plans/2026-08-27-macos-desktop-support.md",
+      "additions": {
+        "human": 926
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-08-19-desktop-shortcut-dedup-design.md",
+      "additions": {
+        "human": 146
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-08-19-installed-self-update-hang-design.md",
+      "additions": {
+        "human": 139
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-08-20-github-download-proxy-design.md",
+      "additions": {
+        "human": 95
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-08-21-dsh-compact-design.md",
+      "additions": {
+        "human": 202
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-08-25-linux-desktop-support-spec.md",
+      "additions": {
+        "human": 156
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-08-27-macos-desktop-support-design.md",
+      "additions": {
+        "human": 182
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-09-01-model-image-input-toggle-design.md",
+      "additions": {
+        "human": 71
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-09-02-conversation-composer-safe-area-design.md",
+      "additions": {
+        "human": 67
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-09-03-better-sidebar-file-preview-recovery-design.md",
+      "additions": {
+        "human": 49
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-09-04-better-sidebar-fresh-install-default-open-design.md",
+      "additions": {
+        "human": 37
+      }
+    },
+    {
+      "new_path": "docs/superpowers/specs/2026-09-04-file-drop-lexical-composer-design.md",
+      "additions": {
+        "human": 76
+      }
+    },
+    {
+      "new_path": "dsh-desktop/.gitignore",
+      "additions": {
+        "human": 99
+      }
+    },
+    {
+      "new_path": "dsh-desktop/.npmrc",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/CHANGELOG.md",
+      "additions": {
+        "human": 1652
+      }
+    },
+    {
+      "new_path": "dsh-desktop/README.md",
+      "additions": {
+        "human": 276
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/SOURCES.json",
+      "additions": {
+        "human": 3039
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/_preset/compaction-epoch.mjs",
+      "additions": {
+        "human": 74
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/_preset/custom-bash.mjs",
+      "additions": {
+        "human": 121
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/_preset/dev-tool-search.mjs",
+      "additions": {
+        "human": 129
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/_preset/instruction-hint.mjs",
+      "additions": {
+        "human": 178
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/_preset/skill-search.mjs",
+      "additions": {
+        "human": 142
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/LICENSE",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/NOTICE",
+      "additions": {
+        "human": 14
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/agent.cordis.yml",
+      "additions": {
+        "human": 324
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/compaction-epoch.mjs",
+      "additions": {
+        "human": 74
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/custom-bash.mjs",
+      "additions": {
+        "human": 121
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/dev-tool-search.mjs",
+      "additions": {
+        "human": 129
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/instruction-hint.mjs",
+      "additions": {
+        "human": 178
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/preset.yml",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/skill-search.mjs",
+      "additions": {
+        "human": 142
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/anchored-standard/tool-bootstrap.mjs",
+      "additions": {
+        "human": 338
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/minimal-gitbash/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/minimal-gitbash/agent.cordis.yml",
+      "additions": {
+        "human": 66
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/minimal-gitbash/gitbash-executor.mjs",
+      "additions": {
+        "human": 330
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/minimal-gitbash/preset.yml",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/minimal-win/agent.cordis.yml",
+      "additions": {
+        "human": 39
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/minimal-win/preset.yml",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/router-standard/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/router-standard/NOTICE",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/router-standard/agent.cordis.yml",
+      "additions": {
+        "human": 243
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/router-standard/preset.yml",
+      "additions": {
+        "human": 2
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/router-standard/router-bootstrap.mjs",
+      "additions": {
+        "human": 236
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/router-standard/router-core.mjs",
+      "additions": {
+        "human": 194
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/v4-flash-godmode-opencode-go/README.md",
+      "additions": {
+        "human": 92
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/v4-flash-godmode-opencode-go/agent.cordis.yml",
+      "additions": {
+        "human": 243
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/v4-flash-godmode-opencode-go/preset.yml",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/v4-flash-godmode-opencode-go/router-bootstrap.mjs",
+      "additions": {
+        "human": 61
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/v4-flash-godmode-opencode-go/router-core.mjs",
+      "additions": {
+        "human": 126
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter-replay/LICENSE.deepseek-harness",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter-replay/agent.cordis.yml",
+      "additions": {
+        "human": 277
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter-replay/preset.yml",
+      "additions": {
+        "human": 2
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter-replay/replay.json",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter-replay/warmup-replay.mjs",
+      "additions": {
+        "human": 183
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter/LICENSE.deepseek-harness",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter/agent.cordis.yml",
+      "additions": {
+        "human": 287
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter/preset.yml",
+      "additions": {
+        "human": 2
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/warmupbetter/warmup-bootstrap.mjs",
+      "additions": {
+        "human": 123
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/whoami-standard/agent.cordis.yml",
+      "additions": {
+        "human": 317
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/whoami-standard/preset.yml",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/whoami-standard/whoami-turn.mjs",
+      "additions": {
+        "human": 55
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/whoami-standard/zero-tool-bootstrap.mjs",
+      "additions": {
+        "human": 199
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/zero-anchored-standard/agent.cordis.yml",
+      "additions": {
+        "human": 311
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/zero-anchored-standard/anchor-turn.mjs",
+      "additions": {
+        "human": 47
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/zero-anchored-standard/preset.yml",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/agent-presets/zero-anchored-standard/zero-tool-bootstrap.mjs",
+      "additions": {
+        "human": 199
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/onboarding.html",
+      "additions": {
+        "human": 340
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/.gitignore",
+      "additions": {
+        "human": 8
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/CHANGELOG.md",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/README.md",
+      "additions": {
+        "human": 157
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/README.zh.md",
+      "additions": {
+        "human": 140
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/client.js",
+      "additions": {
+        "human": 346
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/cordis.patch.yml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/package.json",
+      "additions": {
+        "human": 72
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/scripts/smoke-cmd-wheel.ps1",
+      "additions": {
+        "human": 78
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/scripts/smoke-cmd.ps1",
+      "additions": {
+        "human": 65
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/scripts/smoke-exec.ps1",
+      "additions": {
+        "human": 109
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/scripts/smoke-exec2.ps1",
+      "additions": {
+        "human": 142
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/scripts/smoke-keypress.ps1",
+      "additions": {
+        "human": 67
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/scripts/smoke-pointer.ps1",
+      "additions": {
+        "human": 113
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/scripts/smoke-winforms.ps1",
+      "additions": {
+        "human": 133
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/skills/computer-use.md",
+      "additions": {
+        "human": 156
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/src/capture.ps1",
+      "additions": {
+        "human": 92
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/src/config.js",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/src/index.js",
+      "additions": {
+        "human": 203
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/src/input.ps1",
+      "additions": {
+        "human": 181
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/src/output-guard.js",
+      "additions": {
+        "human": 97
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/src/ps.js",
+      "additions": {
+        "human": 85
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/src/settings-compat.js",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/computer-user/src/tools.js",
+      "additions": {
+        "human": 351
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/README.md",
+      "additions": {
+        "human": 165
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/README_ZH.md",
+      "additions": {
+        "human": 155
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/assets/readme/hero.svg",
+      "additions": {
+        "human": 73
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/cordis.patch.yml",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client.js",
+      "additions": {
+        "human": 2183
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client.js.map",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/ActivityPanel.js",
+      "additions": {
+        "human": 606
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/AgentTeamsCard.js",
+      "additions": {
+        "human": 54
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/activity-model.js",
+      "additions": {
+        "human": 143
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/activity-monitor.js",
+      "additions": {
+        "human": 228
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/agent-teams-card-definition.js",
+      "additions": {
+        "human": 85
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/artwork.js",
+      "additions": {
+        "human": 43
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/index.js",
+      "additions": {
+        "human": 64
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/locales.js",
+      "additions": {
+        "human": 165
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/panel-geometry.js",
+      "additions": {
+        "human": 143
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/client/session-navigation.js",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/command.js",
+      "additions": {
+        "human": 126
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/event-types.js",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/events.js",
+      "additions": {
+        "human": 60
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/index.js",
+      "additions": {
+        "human": 195
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/members.js",
+      "additions": {
+        "human": 327
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/scheduler.js",
+      "additions": {
+        "human": 250
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/snapshot.js",
+      "additions": {
+        "human": 157
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/state.js",
+      "additions": {
+        "human": 786
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/tools.js",
+      "additions": {
+        "human": 1047
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types.js",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/ActivityPanel.d.ts",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/AgentTeamsCard.d.ts",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/activity-model.d.ts",
+      "additions": {
+        "human": 73
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/activity-monitor.d.ts",
+      "additions": {
+        "human": 128
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/agent-teams-card-definition.d.ts",
+      "additions": {
+        "human": 44
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/artwork.d.ts",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/index.d.ts",
+      "additions": {
+        "human": 17
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/locales.d.ts",
+      "additions": {
+        "human": 169
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/panel-geometry.d.ts",
+      "additions": {
+        "human": 49
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/client/session-navigation.d.ts",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/command.d.ts",
+      "additions": {
+        "human": 70
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/event-types.d.ts",
+      "additions": {
+        "human": 105
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/events.d.ts",
+      "additions": {
+        "human": 37
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/index.d.ts",
+      "additions": {
+        "human": 48
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/members.d.ts",
+      "additions": {
+        "human": 146
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/scheduler.d.ts",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/snapshot.d.ts",
+      "additions": {
+        "human": 91
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/state.d.ts",
+      "additions": {
+        "human": 220
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/tools.d.ts",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/lib/types/types.d.ts",
+      "additions": {
+        "human": 91
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-agent-teams/package.json",
+      "additions": {
+        "human": 173
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-balance/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-balance/lib/client.js",
+      "additions": {
+        "human": 476
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-balance/lib/index.js",
+      "additions": {
+        "human": 8
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-balance/package.json",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/README.md",
+      "additions": {
+        "human": 469
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/README_EN.md",
+      "additions": {
+        "human": 479
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/cordis.patch.yml",
+      "additions": {
+        "human": 49
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/dsh.plugin.json",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/client-editor.js",
+      "additions": {
+        "human": 34484
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/client-mermaid.js",
+      "additions": {
+        "human": 200637
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/client-registry.js",
+      "additions": {
+        "human": 13546
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/client-terminal.js",
+      "additions": {
+        "human": 8900
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/client.js",
+      "additions": {
+        "human": 13546
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/index.js",
+      "additions": {
+        "human": 3943
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/invariant.js",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/settings-compat.js",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/agent-pty.d.ts",
+      "additions": {
+        "human": 226
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/browser-probe.d.ts",
+      "additions": {
+        "human": 15
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/bundle-route.d.ts",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/BrowserView.d.ts",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/DiffTab.d.ts",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/DiffView.d.ts",
+      "additions": {
+        "human": 51
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/EditorHost.d.ts",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/FileTree.d.ts",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/GitView.d.ts",
+      "additions": {
+        "human": 8
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/OrphanedTab.d.ts",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/PdfView.d.ts",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/RenderBoundary.d.ts",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/SandboxStatusBar.d.ts",
+      "additions": {
+        "human": 10
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/SideCardSection.d.ts",
+      "additions": {
+        "human": 74
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/SideChatView.d.ts",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/Sidebar.d.ts",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/SubagentView.d.ts",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/TabBar.d.ts",
+      "additions": {
+        "human": 43
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/TerminalView.d.ts",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/TextEditor.d.ts",
+      "additions": {
+        "human": 10
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/TreePanel.d.ts",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/UploadOverlay.d.ts",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/add-plugin-modal.d.ts",
+      "additions": {
+        "human": 15
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/api.d.ts",
+      "additions": {
+        "human": 260
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/binary-download.d.ts",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/breakpoints.d.ts",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/browser.d.ts",
+      "additions": {
+        "human": 50
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/builtins/index.d.ts",
+      "additions": {
+        "human": 18
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/builtins/tabs.d.ts",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/builtins/viewers.d.ts",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/chunk-loader.d.ts",
+      "additions": {
+        "human": 124
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/chunks/editor.d.ts",
+      "additions": {
+        "human": 9
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/chunks/mermaid.d.ts",
+      "additions": {
+        "human": 10
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/chunks/terminal.d.ts",
+      "additions": {
+        "human": 9
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/cm-themes.d.ts",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/conversation-draft.d.ts",
+      "additions": {
+        "human": 14
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/desktop-env.d.ts",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/editor-load.d.ts",
+      "additions": {
+        "human": 66
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/frame-batcher.d.ts",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/icons.d.ts",
+      "additions": {
+        "human": 58
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/image-types.d.ts",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/ime-guard.d.ts",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/index.d.ts",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/intercept.d.ts",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/lang.d.ts",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/lazy-chunk.d.ts",
+      "additions": {
+        "human": 25
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/link-intercept.d.ts",
+      "additions": {
+        "human": 42
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/locales.d.ts",
+      "additions": {
+        "human": 368
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/mermaid-blocks.d.ts",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/mermaid-sanitize.d.ts",
+      "additions": {
+        "human": 2
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/mermaid.d.ts",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/open-when-sized.d.ts",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/open-with-settings.d.ts",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/open-with.d.ts",
+      "additions": {
+        "human": 87
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/openpath-intercept.d.ts",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/paths.d.ts",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/pdf-types.d.ts",
+      "additions": {
+        "human": 2
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/plugin-settings.d.ts",
+      "additions": {
+        "human": 8
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/plugins-shared.d.ts",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/plugins-tabs.d.ts",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/plugins-viewers.d.ts",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/prefs.d.ts",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/produced-files.d.ts",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/selection-payload.d.ts",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/service.d.ts",
+      "additions": {
+        "human": 440
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/settings-nav-icon.d.ts",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/shell-presets.d.ts",
+      "additions": {
+        "human": 48
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/sidechat-transcript.d.ts",
+      "additions": {
+        "human": 103
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/split-pane.d.ts",
+      "additions": {
+        "human": 30
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/state.d.ts",
+      "additions": {
+        "human": 359
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/subagent-detect.d.ts",
+      "additions": {
+        "human": 54
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/subagent-jobs.d.ts",
+      "additions": {
+        "human": 63
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/tab-content-memo.d.ts",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/terminal-font.d.ts",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/theme.d.ts",
+      "additions": {
+        "human": 45
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/titlebar-strip.d.ts",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/upload.d.ts",
+      "additions": {
+        "human": 69
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/client/wco.d.ts",
+      "additions": {
+        "human": 47
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/config.d.ts",
+      "additions": {
+        "human": 67
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/context-types.d.ts",
+      "additions": {
+        "human": 603
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/fs-operations.d.ts",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/fs-search.d.ts",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/fs-tree.d.ts",
+      "additions": {
+        "human": 51
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/git.d.ts",
+      "additions": {
+        "human": 82
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/html-route.d.ts",
+      "additions": {
+        "human": 59
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/index.d.ts",
+      "additions": {
+        "human": 47
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/invariant.d.ts",
+      "additions": {
+        "human": 15
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/jobs-routes.d.ts",
+      "additions": {
+        "human": 45
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/open-external.d.ts",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/prefs-shared.d.ts",
+      "additions": {
+        "human": 225
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/pty-deps.d.ts",
+      "additions": {
+        "human": 78
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/pty-manager.d.ts",
+      "additions": {
+        "human": 168
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/sidechat-core.d.ts",
+      "additions": {
+        "human": 172
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/sidechat-routes.d.ts",
+      "additions": {
+        "human": 30
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/subagent-activity.d.ts",
+      "additions": {
+        "human": 44
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/subagent-live-route.d.ts",
+      "additions": {
+        "human": 44
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/tools.d.ts",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/trust-fence.d.ts",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/lib/types/wire.d.ts",
+      "additions": {
+        "human": 38
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/package.json",
+      "additions": {
+        "human": 171
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/scripts/install.ps1",
+      "additions": {
+        "human": 289
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-better-sidebar/scripts/install.sh",
+      "additions": {
+        "human": 287
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-change-review/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-change-review/lib/client.js",
+      "additions": {
+        "human": 339
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-change-review/lib/index.js",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-change-review/package.json",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-client-file-changes/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-client-file-changes/lib/client.js",
+      "additions": {
+        "human": 806
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-client-file-changes/lib/index.js",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-client-file-changes/package.json",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/cordis.patch.yml",
+      "additions": {
+        "human": 2
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/lib/agent.js",
+      "additions": {
+        "human": 25
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/lib/client.js",
+      "additions": {
+        "human": 315
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/lib/engine.js",
+      "additions": {
+        "human": 335
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/lib/index.js",
+      "additions": {
+        "human": 188
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/lib/policy.js",
+      "additions": {
+        "human": 240
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/lib/settings-compat.js",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-compact/package.json",
+      "additions": {
+        "human": 47
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/EAC-ADAPTATION.md",
+      "additions": {
+        "human": 17
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/README.md",
+      "additions": {
+        "human": 115
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/README.zh-CN.md",
+      "additions": {
+        "human": 83
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/cordis.patch.yml",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/docs/COMPATIBILITY.md",
+      "additions": {
+        "human": 43
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/dsh-plugin.json",
+      "additions": {
+        "human": 38
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/lib/client.js",
+      "additions": {
+        "human": 825
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/lib/types/index.d.ts",
+      "additions": {
+        "human": 18
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/lib/types/index.d.ts.map",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/lib/types/index.js",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-composer-dynamic-island/package.json",
+      "additions": {
+        "human": 86
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-conversation-tweaks/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-conversation-tweaks/lib/client.js",
+      "additions": {
+        "human": 233
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-conversation-tweaks/lib/index.js",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-conversation-tweaks/lib/settings-compat.js",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-conversation-tweaks/package.json",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/ASSET_LICENSE.md",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/CHANGELOG.md",
+      "additions": {
+        "human": 38
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/README.md",
+      "additions": {
+        "human": 307
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/README_EN.md",
+      "additions": {
+        "human": 311
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/assets/pet-manifest.json",
+      "additions": {
+        "human": 45
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/cordis.patch.yml",
+      "additions": {
+        "human": 9
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/lib/client.js",
+      "additions": {
+        "human": 150
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/package.json",
+      "additions": {
+        "human": 88
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/requirements.txt",
+      "additions": {
+        "human": 2
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/runtime/__init__.py",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/runtime/animation_model.py",
+      "additions": {
+        "human": 152
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/runtime/helper.py",
+      "additions": {
+        "human": 659
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/runtime/layout_store.py",
+      "additions": {
+        "human": 75
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/scripts/build-helper.ps1",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/src/companion-reducer.js",
+      "additions": {
+        "human": 369
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/src/helper-process.js",
+      "additions": {
+        "human": 224
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/src/index.js",
+      "additions": {
+        "human": 256
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/src/protocol.js",
+      "additions": {
+        "human": 56
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dafeiyu/src/status-copy.js",
+      "additions": {
+        "human": 118
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dock-settings/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dock-settings/README.md",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dock-settings/cordis.patch.yml",
+      "additions": {
+        "human": 8
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dock-settings/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dock-settings/lib/client.js",
+      "additions": {
+        "human": 457
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dock-settings/lib/host.js",
+      "additions": {
+        "human": 431
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-dock-settings/package.json",
+      "additions": {
+        "human": 45
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-eac-core-bridge/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-eac-core-bridge/index.js",
+      "additions": {
+        "human": 198
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-eac-core-bridge/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-eac-locale-compat/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-eac-locale-compat/lib/client.js",
+      "additions": {
+        "human": 644
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-eac-locale-compat/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-eac-locale-compat/package.json",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-easy-setup/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-easy-setup/lib/client.js",
+      "additions": {
+        "human": 662
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-easy-setup/lib/index.js",
+      "additions": {
+        "human": 219
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-easy-setup/lib/logic.js",
+      "additions": {
+        "human": 126
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-easy-setup/package.json",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-feature-toggles/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-feature-toggles/lib/client.js",
+      "additions": {
+        "human": 211
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-feature-toggles/lib/index.js",
+      "additions": {
+        "human": 13
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-feature-toggles/package.json",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-changes/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-changes/lib/index.js",
+      "additions": {
+        "human": 520
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-changes/package.json",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-drop-eac/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-drop-eac/README.md",
+      "additions": {
+        "human": 62
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-drop-eac/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-drop-eac/lib/client.js",
+      "additions": {
+        "human": 833
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-drop-eac/lib/index.js",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-drop-eac/package.json",
+      "additions": {
+        "human": 30
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-float-window/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-float-window/lib/client.js",
+      "additions": {
+        "human": 324
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-float-window/lib/index.js",
+      "additions": {
+        "human": 13
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-float-window/package.json",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-font-custom/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-font-custom/lib/client.js",
+      "additions": {
+        "human": 491
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-font-custom/lib/index.js",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-font-custom/package.json",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-image-paste/README.md",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-image-paste/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-image-paste/lib/client.js",
+      "additions": {
+        "human": 192
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-image-paste/lib/index.js",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-image-paste/package.json",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/README.md",
+      "additions": {
+        "human": 118
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/cordis.patch.yml",
+      "additions": {
+        "human": 9
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/lib/client.js",
+      "additions": {
+        "human": 2074
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/lib/client.js.map",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/lib/index.js",
+      "additions": {
+        "human": 923
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/lib/index.js.map",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/package.json",
+      "additions": {
+        "human": 55
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-meow-smooth/手机端访问指南.md",
+      "additions": {
+        "human": 189
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-message-rewind/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-message-rewind/README.md",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-message-rewind/cordis.patch.yml",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-message-rewind/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-message-rewind/lib/client.js",
+      "additions": {
+        "human": 405
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-message-rewind/lib/host.js",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-message-rewind/package.json",
+      "additions": {
+        "human": 45
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-navbar/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-navbar/README.md",
+      "additions": {
+        "human": 61
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-navbar/cordis.patch.yml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-navbar/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-navbar/lib/client.js",
+      "additions": {
+        "human": 645
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-navbar/lib/index.mjs",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-navbar/package.json",
+      "additions": {
+        "human": 48
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-offpeak/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-offpeak/README.md",
+      "additions": {
+        "human": 171
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-offpeak/README.zh.md",
+      "additions": {
+        "human": 170
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-offpeak/client/client.js",
+      "additions": {
+        "human": 652
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-offpeak/cordis.patch.yml",
+      "additions": {
+        "human": 25
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-offpeak/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-offpeak/package.json",
+      "additions": {
+        "human": 46
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-offpeak/src/index.js",
+      "additions": {
+        "human": 656
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/README.md",
+      "additions": {
+        "human": 237
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/lib/client.js",
+      "additions": {
+        "human": 2698
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/lib/index.js",
+      "additions": {
+        "human": 1021
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/lib/openai-compat.js",
+      "additions": {
+        "human": 298
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/lib/settings-compat.js",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/lib/wechat.js",
+      "additions": {
+        "human": 333
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-openclaw-bridge/package.json",
+      "additions": {
+        "human": 52
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet-settings/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet-settings/lib/client.js",
+      "additions": {
+        "human": 231
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet-settings/lib/index.js",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet-settings/package.json",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/README.md",
+      "additions": {
+        "human": 97
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/README.zh.md",
+      "additions": {
+        "human": 109
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/cordis.patch.yml",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/lib/client.js",
+      "additions": {
+        "human": 849
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/lib/index.js",
+      "additions": {
+        "human": 135
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/lib/types/client/index.d.ts",
+      "additions": {
+        "human": 39
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/lib/types/index.d.ts",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-pet/package.json",
+      "additions": {
+        "human": 79
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-phone/cordis.patch.yml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-phone/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-phone/lib/client.js",
+      "additions": {
+        "human": 344
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-phone/lib/index.js",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-phone/lib/qrcode.js",
+      "additions": {
+        "human": 2297
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-phone/package.json",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-manager/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-manager/lib/client.js",
+      "additions": {
+        "human": 519
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-manager/lib/index.js",
+      "additions": {
+        "human": 13
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-manager/package.json",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-shield/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-shield/lib/client.js",
+      "additions": {
+        "human": 323
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-shield/lib/index.js",
+      "additions": {
+        "human": 14
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-shield/package.json",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-wizard/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-wizard/lib/client.js",
+      "additions": {
+        "human": 107
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-wizard/lib/index.js",
+      "additions": {
+        "human": 13
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-plugin-wizard/package.json",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-prompt-custom/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-prompt-custom/lib/client.js",
+      "additions": {
+        "human": 276
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-prompt-custom/lib/index.js",
+      "additions": {
+        "human": 139
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-prompt-custom/lib/settings-compat.js",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-prompt-custom/package.json",
+      "additions": {
+        "human": 39
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/.gitignore",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/BREATH.md",
+      "additions": {
+        "human": 127
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/CHANGELOG.md",
+      "additions": {
+        "human": 295
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/DESIGN.md",
+      "additions": {
+        "human": 172
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/EDITORIAL.md",
+      "additions": {
+        "human": 112
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/FRAMING.md",
+      "additions": {
+        "human": 94
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/PROGRESS.md",
+      "additions": {
+        "human": 132
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/README.en.md",
+      "additions": {
+        "human": 125
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/README.md",
+      "additions": {
+        "human": 157
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/VCP-INTERACTIONS.md",
+      "additions": {
+        "human": 167
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/assets/vendor/VCPColorEngine.js",
+      "additions": {
+        "human": 379
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/assets/vendor/auto-render.min.js",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/assets/vendor/katex-vd.css",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/assets/vendor/katex.min.css",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/assets/vendor/katex.min.js",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/assets/vendor/mermaid.min.js",
+      "additions": {
+        "human": 2659
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/cordis.patch.yml",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/docs/EVOLUTION-2026-08-24.md",
+      "additions": {
+        "human": 134
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/docs/审计-2026-08-26.md",
+      "additions": {
+        "human": 267
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/examples/README.md",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/examples/今日八卦晚报.html",
+      "additions": {
+        "human": 83
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/examples/情书·春水笺.html",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/examples/深夜女郎·顶栏装帧.html",
+      "additions": {
+        "human": 55
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/examples/雨柬·山城酷热.html",
+      "additions": {
+        "human": 70
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/fonts-index.txt",
+      "additions": {
+        "human": 230
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/lib/client.js",
+      "additions": {
+        "human": 2763
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/lib/index.js",
+      "additions": {
+        "human": 1060
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/package.json",
+      "additions": {
+        "human": 66
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/screenshots.json",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/_BASELINE.md",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/_FONTS.md",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/_INDEX.md",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/_inbox/README.md",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/brutalism.md",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/cyberpunk-neon.md",
+      "additions": {
+        "human": 42
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/editorial-minimal.md",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/header-framing.md",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/ink-letter.md",
+      "additions": {
+        "human": 63
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/maiden-diary.md",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/pop-flat.md",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/porcelain-data.md",
+      "additions": {
+        "human": 38
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/wabi-sabi.md",
+      "additions": {
+        "human": 43
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/warm-minimal.md",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/wire-news.md",
+      "additions": {
+        "human": 42
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/styles/y2k-glass.md",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/tools/check-deps.cjs",
+      "additions": {
+        "human": 69
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-raw-html/tools/subset_fonts.py",
+      "additions": {
+        "human": 130
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-session-manager/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-session-manager/README.md",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-session-manager/cordis.patch.yml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-session-manager/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-session-manager/lib/client.js",
+      "additions": {
+        "human": 311
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-session-manager/lib/index.mjs",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-session-manager/package.json",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-groups/README.md",
+      "additions": {
+        "human": 17
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-groups/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-groups/lib/client.js",
+      "additions": {
+        "human": 242
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-groups/lib/index.js",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-groups/package.json",
+      "additions": {
+        "human": 22
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/AUDIT.md",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/README.md",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/cordis.patch.yml",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/lib/client.js",
+      "additions": {
+        "human": 348
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/lib/index.js",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/package.json",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/scripts/build.mjs",
+      "additions": {
+        "human": 10
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/src/client.js",
+      "additions": {
+        "human": 348
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/src/index.js",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-settings-scroll-fix/tests/smoke.mjs",
+      "additions": {
+        "human": 89
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-side-session/README.md",
+      "additions": {
+        "human": 81
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-side-session/SPEC.md",
+      "additions": {
+        "human": 167
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-side-session/cordis.patch.yml",
+      "additions": {
+        "human": 9
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-side-session/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-side-session/dsh.plugin.json",
+      "additions": {
+        "human": 10
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-side-session/lib/client.js",
+      "additions": {
+        "human": 1490
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-side-session/lib/index.js",
+      "additions": {
+        "human": 1051
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-side-session/package.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-skin-switch/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-skin-switch/lib/client.js",
+      "additions": {
+        "human": 434
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-skin-switch/lib/index.js",
+      "additions": {
+        "human": 341
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-skin-switch/package.json",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-soul-md/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-soul-md/README.zh.md",
+      "additions": {
+        "human": 47
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-soul-md/client.js",
+      "additions": {
+        "human": 238
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-soul-md/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-soul-md/examples/soul.example.md",
+      "additions": {
+        "human": 30
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-soul-md/index.js",
+      "additions": {
+        "human": 165
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-soul-md/package.json",
+      "additions": {
+        "human": 55
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/README.md",
+      "additions": {
+        "human": 77
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client.js",
+      "additions": {
+        "human": 1269
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/components/MicButton.js",
+      "additions": {
+        "human": 81
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/components/ModelGuideBar.js",
+      "additions": {
+        "human": 55
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/components/SettingsCard.js",
+      "additions": {
+        "human": 123
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/entry.js",
+      "additions": {
+        "human": 65
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/approval.js",
+      "additions": {
+        "human": 17
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/audio.js",
+      "additions": {
+        "human": 63
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/capture.js",
+      "additions": {
+        "human": 133
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/composer.js",
+      "additions": {
+        "human": 50
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/diag.js",
+      "additions": {
+        "human": 65
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/i18n.js",
+      "additions": {
+        "human": 100
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/session.js",
+      "additions": {
+        "human": 175
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/state.js",
+      "additions": {
+        "human": 65
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/client/lib/styles.js",
+      "additions": {
+        "human": 48
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/cordis.patch.yml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/dsh-plugin.json",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/package-lock.json",
+      "additions": {
+        "human": 595
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/package.json",
+      "additions": {
+        "human": 58
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/src/index.js",
+      "additions": {
+        "human": 533
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-stt/src/voice-logic.mjs",
+      "additions": {
+        "human": 237
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-terminal/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-terminal/lib/client.js",
+      "additions": {
+        "human": 447
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-terminal/lib/index.js",
+      "additions": {
+        "human": 479
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-terminal/package.json",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/.gitignore",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/CHANGELOG.md",
+      "additions": {
+        "human": 70
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/README.md",
+      "additions": {
+        "human": 177
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/cordis.patch.yml",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/lib/client.js",
+      "additions": {
+        "human": 433
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/lib/client.src.js",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/lib/index.js",
+      "additions": {
+        "human": 25
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/package.json",
+      "additions": {
+        "human": 56
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/scripts/build.mjs",
+      "additions": {
+        "human": 59
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/src/client/index.ts",
+      "additions": {
+        "human": 418
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/src/index.ts",
+      "additions": {
+        "human": 47
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/src/types.d.ts",
+      "additions": {
+        "human": 30
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/test/host-smoke.mjs",
+      "additions": {
+        "human": 82
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/tsconfig.client.json",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-think-zh-expand-eac/tsconfig.json",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-undo-savepoint/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-undo-savepoint/cordis.patch.yml",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-undo-savepoint/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-undo-savepoint/lib/client.js",
+      "additions": {
+        "human": 872
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-undo-savepoint/lib/index.js",
+      "additions": {
+        "human": 1936
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-undo-savepoint/package.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/.gitignore",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/CHANGELOG.md",
+      "additions": {
+        "human": 69
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/README.md",
+      "additions": {
+        "human": 258
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/cordis.patch.yml",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/data/catalog-snapshot.json",
+      "additions": {
+        "human": 3440
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/data/eac-recommended.json",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/data/packs-snapshot.json",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/lib/allow-builds.mjs",
+      "additions": {
+        "human": 193
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/lib/artifact-keep.mjs",
+      "additions": {
+        "human": 218
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/lib/client.js",
+      "additions": {
+        "human": 1073
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/lib/host.js",
+      "additions": {
+        "human": 2547
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/lib/plugin-conflict-scan.mjs",
+      "additions": {
+        "human": 165
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/lib/profile-sync.mjs",
+      "additions": {
+        "human": 430
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-unified-market/package.json",
+      "additions": {
+        "human": 53
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-viewport-lock/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-viewport-lock/lib/client.js",
+      "additions": {
+        "human": 259
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-viewport-lock/lib/index.js",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-viewport-lock/package.json",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-web-mobile-fix/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-web-mobile-fix/README.md",
+      "additions": {
+        "human": 70
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-web-mobile-fix/README.zh.md",
+      "additions": {
+        "human": 70
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-web-mobile-fix/cordis.patch.yml",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-web-mobile-fix/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-web-mobile-fix/lib/client.js",
+      "additions": {
+        "human": 167
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-web-mobile-fix/lib/index.js",
+      "additions": {
+        "human": 10
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-web-mobile-fix/package.json",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/LICENSE",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/NOTICE.md",
+      "additions": {
+        "human": 9
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/README.md",
+      "additions": {
+        "human": 30
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/cordis.patch.yml",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/dsh-plugin.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/lib/client.js",
+      "additions": {
+        "human": 732
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/lib/client.js.map",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/lib/index.js",
+      "additions": {
+        "human": 419
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/lib/index.js.map",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-webui-prompt-optimizer/package.json",
+      "additions": {
+        "human": 59
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-whale-widget/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-whale-widget/README.md",
+      "additions": {
+        "human": 232
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-whale-widget/cordis.patch.yml",
+      "additions": {
+        "human": 15
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-whale-widget/dsh-plugin.json",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-whale-widget/lib/index.js",
+      "additions": {
+        "human": 2023
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-whale-widget/package.json",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/.gitignore",
+      "additions": {
+        "human": 11
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/README.md",
+      "additions": {
+        "human": 476
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/client.js",
+      "additions": {
+        "human": 657
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/cordis.patch.yml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/dsh-plugin.json",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/package-lock.json",
+      "additions": {
+        "human": 42
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/package.json",
+      "additions": {
+        "human": 77
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/doc-to-image.py",
+      "additions": {
+        "human": 194
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/image-edit.py",
+      "additions": {
+        "human": 707
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/install-local.mjs",
+      "additions": {
+        "human": 62
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/macos-ocr.swift",
+      "additions": {
+        "human": 89
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/preview.mjs",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/setup-doc-venv.mjs",
+      "additions": {
+        "human": 66
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/setup-image-venv.mjs",
+      "additions": {
+        "human": 84
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/setup-macos.mjs",
+      "additions": {
+        "human": 78
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/setup-ocr.mjs",
+      "additions": {
+        "human": 96
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/scripts/setup-rapid.mjs",
+      "additions": {
+        "human": 85
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/skills/image-reading.md",
+      "additions": {
+        "human": 119
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/skills/vision-analyze.md",
+      "additions": {
+        "human": 256
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/bridge.js",
+      "additions": {
+        "human": 282
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/config.js",
+      "additions": {
+        "human": 70
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/core.js",
+      "additions": {
+        "human": 1603
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/doc-tools.js",
+      "additions": {
+        "human": 326
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/guard.js",
+      "additions": {
+        "human": 101
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/image-batch.js",
+      "additions": {
+        "human": 507
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/image-edit.js",
+      "additions": {
+        "human": 317
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/index.js",
+      "additions": {
+        "human": 397
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/more-tools.js",
+      "additions": {
+        "human": 695
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/picturereader-vision.mjs",
+      "additions": {
+        "human": 164
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/routing.js",
+      "additions": {
+        "human": 130
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/runtime.js",
+      "additions": {
+        "human": 127
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/settings-expose.js",
+      "additions": {
+        "human": 75
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/tool.js",
+      "additions": {
+        "human": 560
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/vision-analyze.js",
+      "additions": {
+        "human": 283
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/picturereader/src/vlm.js",
+      "additions": {
+        "human": 452
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/recovery-center-preload.js",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/recovery-center.html",
+      "additions": {
+        "human": 217
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/sdk-plugins/sample-sdk-plugin/index.js",
+      "additions": {
+        "human": 66
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/sdk-plugins/sample-sdk-plugin/package.json",
+      "additions": {
+        "human": 13
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skills/README.md",
+      "additions": {
+        "human": 15
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skills/eac-desktop-tips/.eac-skill.json",
+      "additions": {
+        "human": 5
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skills/eac-desktop-tips/SKILL.md",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/blue-fantasy/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/blue-fantasy/lib/client.js",
+      "additions": {
+        "human": 114
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/blue-fantasy/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/blue-fantasy/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/blue-fantasy/skin.json",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/dragon-heir/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/dragon-heir/lib/client.js",
+      "additions": {
+        "human": 114
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/dragon-heir/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/dragon-heir/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/dragon-heir/skin.json",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/dsh-skins-LICENSE.txt",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/maid-atelier/LICENSE",
+      "additions": {
+        "human": 438
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/maid-atelier/NOTICE",
+      "additions": {
+        "human": 25
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/maid-atelier/README.md",
+      "additions": {
+        "human": 49
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/maid-atelier/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/maid-atelier/lib/client.js",
+      "additions": {
+        "human": 451
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/maid-atelier/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/maid-atelier/package.json",
+      "additions": {
+        "human": 39
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/maid-atelier/skin.json",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/miku/cordis.patch.yml",
+      "additions": {
+        "human": 8
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/miku/lib/client.js",
+      "additions": {
+        "human": 192
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/miku/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/miku/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/miku/skin.json",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/minecraft/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/minecraft/lib/client.js",
+      "additions": {
+        "human": 491
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/minecraft/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/minecraft/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/minecraft/skin.json",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/qq98/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/qq98/lib/client.js",
+      "additions": {
+        "human": 127
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/qq98/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/qq98/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/qq98/skin.json",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/ths/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/ths/lib/client.js",
+      "additions": {
+        "human": 216
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/ths/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/ths/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/ths/skin.json",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/trading/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/trading/lib/client.js",
+      "additions": {
+        "human": 844
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/trading/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/trading/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/trading/skin.json",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/whale-song/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/whale-song/lib/client.js",
+      "additions": {
+        "human": 110
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/whale-song/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/whale-song/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/whale-song/skin.json",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/xp/cordis.patch.yml",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/xp/lib/client.js",
+      "additions": {
+        "human": 185
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/xp/lib/index.js",
+      "additions": {
+        "human": 6
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/xp/package.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/skins/xp/skin.json",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/ws-jsonrpc-client.js",
+      "additions": {
+        "human": 118
+      }
+    },
+    {
+      "new_path": "dsh-desktop/balance.ts",
+      "additions": {
+        "human": 274
+      }
+    },
+    {
+      "new_path": "dsh-desktop/builtin-collision.ts",
+      "additions": {
+        "human": 169
+      }
+    },
+    {
+      "new_path": "dsh-desktop/bundle-integrity.ts",
+      "additions": {
+        "human": 96
+      }
+    },
+    {
+      "new_path": "dsh-desktop/client-updater.ts",
+      "additions": {
+        "human": 1367
+      }
+    },
+    {
+      "new_path": "dsh-desktop/compact-preset-migrate.ts",
+      "additions": {
+        "human": 139
+      }
+    },
+    {
+      "new_path": "dsh-desktop/docs/PLUGIN-LEDGER.md",
+      "additions": {
+        "human": 117
+      }
+    },
+    {
+      "new_path": "dsh-desktop/docs/SINGLE-EDITION-MIGRATION.md",
+      "additions": {
+        "human": 46
+      }
+    },
+    {
+      "new_path": "dsh-desktop/docs/audit-host-0.2.0.md",
+      "additions": {
+        "human": 92
+      }
+    },
+    {
+      "new_path": "dsh-desktop/host-bootstrap.ts",
+      "additions": {
+        "human": 126
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/atomic-json.ts",
+      "additions": {
+        "human": 53
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/boot-server.ts",
+      "additions": {
+        "human": 391
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/client-update.ts",
+      "additions": {
+        "human": 266
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/companion-sync.ts",
+      "additions": {
+        "human": 949
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/feature-pack.ts",
+      "additions": {
+        "human": 1245
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/file-roots.ts",
+      "additions": {
+        "human": 111
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/guard-box.ts",
+      "additions": {
+        "human": 76
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/install-profile.ts",
+      "additions": {
+        "human": 57
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/junction-patrol.ts",
+      "additions": {
+        "human": 102
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/market.ts",
+      "additions": {
+        "human": 393
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/platform.ts",
+      "additions": {
+        "human": 127
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/plugin-ops.ts",
+      "additions": {
+        "human": 309
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/plugin-sync-registry.js",
+      "additions": {
+        "human": 1027
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/plugin-sync-registry.ts",
+      "additions": {
+        "human": 1025
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/proc.ts",
+      "additions": {
+        "human": 186
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/profile.ts",
+      "additions": {
+        "human": 112
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/runtime-patches.ts",
+      "additions": {
+        "human": 51
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/runtime-paths.ts",
+      "additions": {
+        "human": 144
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/shortcuts.ts",
+      "additions": {
+        "human": 389
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/desktop/static-preview.ts",
+      "additions": {
+        "human": 165
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/extension-host/bridge-server.ts",
+      "additions": {
+        "human": 153
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/extension-host/job-fence.ts",
+      "additions": {
+        "human": 342
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/extension-host/manager.ts",
+      "additions": {
+        "human": 517
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/extension-host/rpc.ts",
+      "additions": {
+        "human": 199
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/extension-host/sdk/index.ts",
+      "additions": {
+        "human": 287
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/log.ts",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/plugin-copy.ts",
+      "additions": {
+        "human": 264
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/recovery-center/register.ts",
+      "additions": {
+        "human": 262
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/state.ts",
+      "additions": {
+        "human": 56
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/supervisor/incidents.ts",
+      "additions": {
+        "human": 83
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/supervisor/installer.ts",
+      "additions": {
+        "human": 306
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/supervisor/permissions.ts",
+      "additions": {
+        "human": 79
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/supervisor/registry.ts",
+      "additions": {
+        "human": 177
+      }
+    },
+    {
+      "new_path": "dsh-desktop/lib/supervisor/state-machine.ts",
+      "additions": {
+        "human": 196
+      }
+    },
+    {
+      "new_path": "dsh-desktop/logger.ts",
+      "additions": {
+        "human": 1073
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/.gitignore",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/Cargo.lock",
+      "additions": {
+        "human": 424
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/Cargo.toml",
+      "additions": {
+        "human": 28
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/build.rs",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/src/engine.rs",
+      "additions": {
+        "human": 729
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/src/exclude.rs",
+      "additions": {
+        "human": 110
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/src/fsutil.rs",
+      "additions": {
+        "human": 241
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/src/lib.rs",
+      "additions": {
+        "human": 38
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/src/store.rs",
+      "additions": {
+        "human": 319
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/snapshot/src/types.rs",
+      "additions": {
+        "human": 248
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/supervisor/.gitignore",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/supervisor/Cargo.lock",
+      "additions": {
+        "human": 367
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/supervisor/Cargo.toml",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/supervisor/build.rs",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/supervisor/src/job.rs",
+      "additions": {
+        "human": 589
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/supervisor/src/lib.rs",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "dsh-desktop/native/supervisor/src/sha256.rs",
+      "additions": {
+        "human": 92
+      }
+    },
+    {
+      "new_path": "dsh-desktop/package-lock.json",
+      "additions": {
+        "human": 10583
+      }
+    },
+    {
+      "new_path": "dsh-desktop/package.json",
+      "additions": {
+        "human": 341
+      }
+    },
+    {
+      "new_path": "dsh-desktop/patch-row-heal.ts",
+      "additions": {
+        "human": 271
+      }
+    },
+    {
+      "new_path": "dsh-desktop/plugin-guard.ts",
+      "additions": {
+        "human": 748
+      }
+    },
+    {
+      "new_path": "dsh-desktop/plugin-manager-state.ts",
+      "additions": {
+        "human": 133
+      }
+    },
+    {
+      "new_path": "dsh-desktop/plugin-updater.ts",
+      "additions": {
+        "human": 546
+      }
+    },
+    {
+      "new_path": "dsh-desktop/preset-sync.ts",
+      "additions": {
+        "human": 122
+      }
+    },
+    {
+      "new_path": "dsh-desktop/profile-module-heal.ts",
+      "additions": {
+        "human": 106
+      }
+    },
+    {
+      "new_path": "dsh-desktop/rescue-agent.ts",
+      "additions": {
+        "human": 751
+      }
+    },
+    {
+      "new_path": "dsh-desktop/router-persona-preset-migrate.ts",
+      "additions": {
+        "human": 82
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/analyze-session-log.js",
+      "additions": {
+        "human": 106
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/build-icon.ps1",
+      "additions": {
+        "human": 263
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/build-native.ts",
+      "additions": {
+        "human": 144
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/check-client-latest.js",
+      "additions": {
+        "human": 49
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/check-latest.js",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/check-syntax.ts",
+      "additions": {
+        "human": 89
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/debug-stream-write-after-end.js",
+      "additions": {
+        "human": 42
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/demo-rescue-ai.cjs",
+      "additions": {
+        "human": 236
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/e2e-full.js",
+      "additions": {
+        "human": 444
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/e2e-mario.js",
+      "additions": {
+        "human": 213
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/e2e-v4.js",
+      "additions": {
+        "human": 394
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/feature-pack-cli.ts",
+      "additions": {
+        "human": 251
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/fetch-kernel.js",
+      "additions": {
+        "human": 222
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/fetch-kernel.ts",
+      "additions": {
+        "human": 252
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/fetch-node.ts",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/fetch-npm.ts",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/gen-kernel-overrides.js",
+      "additions": {
+        "human": 113
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/gen-kernel-overrides.ts",
+      "additions": {
+        "human": 129
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/gen-plugin-manifests.mjs",
+      "additions": {
+        "human": 120
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/generate-plugin-registry.mjs",
+      "additions": {
+        "human": 47
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/inspect-session.js",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/install-plugin-engines.mjs",
+      "additions": {
+        "human": 66
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/npm-ci-with-kernel.mjs",
+      "additions": {
+        "human": 46
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/onboarding.js",
+      "additions": {
+        "human": 174
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/patch-deps.ts",
+      "additions": {
+        "human": 806
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/patch-session-manage.js",
+      "additions": {
+        "human": 438
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/plugin-kernel-compat.mjs",
+      "additions": {
+        "human": 327
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/plugin-ledger.mjs",
+      "additions": {
+        "human": 172
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/plugin-manager-patch.js",
+      "additions": {
+        "human": 209
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/plugin-sync.mjs",
+      "additions": {
+        "human": 1084
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/publish-pack-index.mjs",
+      "additions": {
+        "human": 117
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/repair-session-log.js",
+      "additions": {
+        "human": 239
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/seed-builder-cache.ps1",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/sim-client-update.js",
+      "additions": {
+        "human": 112
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/test-runner.ts",
+      "additions": {
+        "human": 58
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/test-watcher.js",
+      "additions": {
+        "human": 47
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/update-check-probe.js",
+      "additions": {
+        "human": 62
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/verify-bugfix-cdp.js",
+      "additions": {
+        "human": 225
+      }
+    },
+    {
+      "new_path": "dsh-desktop/scripts/verify-dist-fresh.js",
+      "additions": {
+        "human": 80
+      }
+    },
+    {
+      "new_path": "dsh-desktop/session-watcher.ts",
+      "additions": {
+        "human": 251
+      }
+    },
+    {
+      "new_path": "dsh-desktop/shared/protocol.ts",
+      "additions": {
+        "human": 180
+      }
+    },
+    {
+      "new_path": "dsh-desktop/shortcut-maintenance.ts",
+      "additions": {
+        "human": 153
+      }
+    },
+    {
+      "new_path": "dsh-desktop/stable-port.ts",
+      "additions": {
+        "human": 91
+      }
+    },
+    {
+      "new_path": "dsh-desktop/stream-write-guard.ts",
+      "additions": {
+        "human": 79
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/allow-builds.test.ts",
+      "additions": {
+        "human": 142
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/artifact-keep.test.ts",
+      "additions": {
+        "human": 100
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/atomic-write.test.ts",
+      "additions": {
+        "human": 97
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/balance-prices-core.test.ts",
+      "additions": {
+        "human": 81
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/better-sidebar-bundle.test.ts",
+      "additions": {
+        "human": 167
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/boot-attribution.test.ts",
+      "additions": {
+        "human": 85
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/bridge-preload-parity.test.ts",
+      "additions": {
+        "human": 107
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/builtin-collision.test.ts",
+      "additions": {
+        "human": 192
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/bundle-integrity.test.ts",
+      "additions": {
+        "human": 124
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/bundled-files.test.ts",
+      "additions": {
+        "human": 77
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-update-darwin.test.ts",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-update-init-contract.test.ts",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-update-linux.test.ts",
+      "additions": {
+        "human": 111
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-update-platform.test.ts",
+      "additions": {
+        "human": 110
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-updater-apply.test.ts",
+      "additions": {
+        "human": 743
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-updater-asset.test.ts",
+      "additions": {
+        "human": 92
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-updater-cleanup.test.ts",
+      "additions": {
+        "human": 116
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-updater-hash.test.ts",
+      "additions": {
+        "human": 90
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-updater-node-arg.test.ts",
+      "additions": {
+        "human": 78
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-updater-nospace.test.ts",
+      "additions": {
+        "human": 37
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-updater-proxy.test.ts",
+      "additions": {
+        "human": 73
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/client-updater-resume.test.ts",
+      "additions": {
+        "human": 95
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/companion-copy-integrity.test.ts",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/companion-platform.test.ts",
+      "additions": {
+        "human": 20
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/companion-plugins-registry.test.ts",
+      "additions": {
+        "human": 268
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/composer-dynamic-island-integration.test.ts",
+      "additions": {
+        "human": 116
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/computer-user-approval.test.ts",
+      "additions": {
+        "human": 113
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/credentials-heal.test.ts",
+      "additions": {
+        "human": 132
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dafeiyu-dialog-visibility.test.ts",
+      "additions": {
+        "human": 61
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dependency-security-overrides.test.ts",
+      "additions": {
+        "human": 24
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/desktop-extras.test.ts",
+      "additions": {
+        "human": 143
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/diagnostics-zip.test.ts",
+      "additions": {
+        "human": 209
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-compact-engine.test.ts",
+      "additions": {
+        "human": 158
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-compact-host.test.ts",
+      "additions": {
+        "human": 87
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-compact-integration.test.ts",
+      "additions": {
+        "human": 110
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-compact-migration.test.ts",
+      "additions": {
+        "human": 193
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-compact-output-overflow.test.ts",
+      "additions": {
+        "human": 207
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-compact-policy.test.ts",
+      "additions": {
+        "human": 97
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-compact-request-guards.test.ts",
+      "additions": {
+        "human": 180
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-file-changes-projection.test.ts",
+      "additions": {
+        "human": 69
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-file-drop-eac-core.test.ts",
+      "additions": {
+        "human": 330
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/dsh-stt.test.ts",
+      "additions": {
+        "human": 82
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/eac-locale-compat.test.ts",
+      "additions": {
+        "human": 153
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/easy-setup.test.ts",
+      "additions": {
+        "human": 134
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/extension-host-manager.test.ts",
+      "additions": {
+        "human": 385
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/extension-host-sdk.test.ts",
+      "additions": {
+        "human": 318
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/extension-host.test.ts",
+      "additions": {
+        "human": 215
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/feature-pack.test.ts",
+      "additions": {
+        "human": 391
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/fetch-npm-platform.test.ts",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/file-roots-platform.test.ts",
+      "additions": {
+        "human": 50
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/fixtures/vnext-orphans-driver.cjs",
+      "additions": {
+        "human": 61
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/image-paste-core.test.ts",
+      "additions": {
+        "human": 100
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/install-profile.test.ts",
+      "additions": {
+        "human": 54
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/installer-nsh-lengths.test.ts",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/installer-nsh-pipe.test.ts",
+      "additions": {
+        "human": 30
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/installer-takeover.test.ts",
+      "additions": {
+        "human": 39
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/installer-user-data-safety.test.ts",
+      "additions": {
+        "human": 13
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/kernel-pin-consistency.test.ts",
+      "additions": {
+        "human": 48
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/koffi-preflight.test.ts",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/l1-native-actions.test.ts",
+      "additions": {
+        "human": 45
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/linux-bundle-audit.test.ts",
+      "additions": {
+        "human": 107
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/linux-release-boot.test.ts",
+      "additions": {
+        "human": 116
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/logger-redact.test.ts",
+      "additions": {
+        "human": 164
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/logger-rotate.test.ts",
+      "additions": {
+        "human": 119
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/logs-export-platform.test.ts",
+      "additions": {
+        "human": 52
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/market-installed.test.ts",
+      "additions": {
+        "human": 79
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/market-recommended.test.ts",
+      "additions": {
+        "human": 52
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/model-image-input-toggle.test.ts",
+      "additions": {
+        "human": 162
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/onboarding-selection.test.ts",
+      "additions": {
+        "human": 265
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/package.json",
+      "additions": {
+        "human": 3
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/patch-row-heal.test.ts",
+      "additions": {
+        "human": 253
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/persona-scope.test.ts",
+      "additions": {
+        "human": 43
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/pet-overlay.test.ts",
+      "additions": {
+        "human": 90
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/phone-bridge.test.ts",
+      "additions": {
+        "human": 569
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/platform.test.ts",
+      "additions": {
+        "human": 103
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-client-contract.test.ts",
+      "additions": {
+        "human": 271
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-conflict-scan.test.ts",
+      "additions": {
+        "human": 143
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-copy-stamp.test.ts",
+      "additions": {
+        "human": 96
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-guard.test.ts",
+      "additions": {
+        "human": 227
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-kernel-compat.test.ts",
+      "additions": {
+        "human": 221
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-manager-state.test.ts",
+      "additions": {
+        "human": 101
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-manager-toggle.test.ts",
+      "additions": {
+        "human": 163
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-private-governance.test.ts",
+      "additions": {
+        "human": 73
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-slot-registration.test.ts",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-sync.test.ts",
+      "additions": {
+        "human": 411
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/plugin-updater.test.ts",
+      "additions": {
+        "human": 355
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/preset-sync.test.ts",
+      "additions": {
+        "human": 247
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/pricing-window.test.ts",
+      "additions": {
+        "human": 89
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/proc-platform.test.ts",
+      "additions": {
+        "human": 99
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/profile-module-heal.test.ts",
+      "additions": {
+        "human": 160
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/raw-html-integration.test.ts",
+      "additions": {
+        "human": 125
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/raw-html-sanitize.test.ts",
+      "additions": {
+        "human": 318
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/recovery-center.test.ts",
+      "additions": {
+        "human": 122
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/recovery-integration.test.ts",
+      "additions": {
+        "human": 60
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/rescue-agent.test.ts",
+      "additions": {
+        "human": 488
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/rescue-auto-repair.test.ts",
+      "additions": {
+        "human": 143
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/rescue-integration.test.ts",
+      "additions": {
+        "human": 57
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/rescue-zip-command.test.ts",
+      "additions": {
+        "human": 15
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/resolve-profile.test.ts",
+      "additions": {
+        "human": 51
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/retired-list-hash-gate.test.ts",
+      "additions": {
+        "human": 75
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/retired-market-migration.test.ts",
+      "additions": {
+        "human": 59
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/router-persona-preservation.test.ts",
+      "additions": {
+        "human": 38
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/router-persona-preset-migrate.test.ts",
+      "additions": {
+        "human": 76
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/runtime-overlay-health.test.ts",
+      "additions": {
+        "human": 90
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/runtime-paths-platform.test.ts",
+      "additions": {
+        "human": 56
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/seed-bundled.test.ts",
+      "additions": {
+        "human": 83
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/session-manager-client.test.ts",
+      "additions": {
+        "human": 72
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/settings-groups-core.test.ts",
+      "additions": {
+        "human": 121
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/settings-groups-standdown.test.ts",
+      "additions": {
+        "human": 34
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/settings-scroll-fix.test.ts",
+      "additions": {
+        "human": 237
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/settings-write-recovery.test.ts",
+      "additions": {
+        "human": 184
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/shortcut-maintenance.test.ts",
+      "additions": {
+        "human": 206
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/side-session-model-routing.test.ts",
+      "additions": {
+        "human": 89
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/sidecar-platform.test.ts",
+      "additions": {
+        "human": 61
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/skin-chrome-zindex.test.ts",
+      "additions": {
+        "human": 82
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/skin-switch-css.test.ts",
+      "additions": {
+        "human": 93
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/skin-switch-profile.test.ts",
+      "additions": {
+        "human": 148
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/smoke-isolation.test.ts",
+      "additions": {
+        "human": 29
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/stable-port.test.ts",
+      "additions": {
+        "human": 161
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/stage-kernel-manifest.test.ts",
+      "additions": {
+        "human": 73
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/stage-platform-cache.test.ts",
+      "additions": {
+        "human": 26
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/stage-platform-prune.test.ts",
+      "additions": {
+        "human": 57
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/stream-write-after-end.test.ts",
+      "additions": {
+        "human": 73
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/supervisor-phase1.test.ts",
+      "additions": {
+        "human": 261
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/titlebar-strip-contract.test.ts",
+      "additions": {
+        "human": 35
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/update-mirror-chain.test.ts",
+      "additions": {
+        "human": 214
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/updater-backup.test.ts",
+      "additions": {
+        "human": 102
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/updater-version.test.ts",
+      "additions": {
+        "human": 37
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/verify-dist-fresh.test.ts",
+      "additions": {
+        "human": 91
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/viewport-lock.test.ts",
+      "additions": {
+        "human": 226
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/widget-theme.test.ts",
+      "additions": {
+        "human": 64
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/window-bridge-port.test.ts",
+      "additions": {
+        "human": 40
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/windows-build-compat.test.ts",
+      "additions": {
+        "human": 33
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/ws-rpc-single-source.test.ts",
+      "additions": {
+        "human": 46
+      }
+    },
+    {
+      "new_path": "dsh-desktop/tsconfig.json",
+      "additions": {
+        "human": 31
+      }
+    },
+    {
+      "new_path": "dsh-desktop/updater.ts",
+      "additions": {
+        "human": 612
+      }
+    },
+    {
+      "new_path": "gui-smoke.js",
+      "additions": {
+        "human": 281
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/.gitignore",
+      "additions": {
+        "human": 13
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/CHANGELOG.md",
+      "additions": {
+        "human": 64
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/README.md",
+      "additions": {
+        "human": 233
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/docs/design.md",
+      "additions": {
+        "human": 134
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/docs/openclaw-config.md",
+      "additions": {
+        "human": 105
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/docs/wechat-clawbot-dsh-report.md",
+      "additions": {
+        "human": 248
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/lib/client.js",
+      "additions": {
+        "human": 2698
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/lib/index.js",
+      "additions": {
+        "human": 1020
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/lib/openai-compat.js",
+      "additions": {
+        "human": 298
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/lib/wechat.js",
+      "additions": {
+        "human": 333
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/package.json",
+      "additions": {
+        "human": 50
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/scripts/install.ps1",
+      "additions": {
+        "human": 90
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/scripts/integration-test.ps1",
+      "additions": {
+        "human": 177
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/scripts/test.ps1",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/scripts/uninstall.ps1",
+      "additions": {
+        "human": 70
+      }
+    },
+    {
+      "new_path": "openclaw-dsh-bridge/test/bridge.test.mjs",
+      "additions": {
+        "human": 535
+      }
+    },
+    {
+      "new_path": "rescue-smoke.js",
+      "additions": {
+        "human": 195
+      }
+    },
+    {
+      "new_path": "research/cc-weixin_README.md",
+      "additions": {
+        "human": 152
+      }
+    },
+    {
+      "new_path": "research/cc-weixin_pkg.json",
+      "additions": {
+        "human": 43
+      }
+    },
+    {
+      "new_path": "research/codeenxi_README.md",
+      "additions": {
+        "human": 269
+      }
+    },
+    {
+      "new_path": "research/codeenxi_README_master.md",
+      "additions": {
+        "human": 269
+      }
+    },
+    {
+      "new_path": "research/docs_wechat.html",
+      "additions": {
+        "human": 215
+      }
+    },
+    {
+      "new_path": "research/oschina_ilink.html",
+      "additions": {
+        "human": 74
+      }
+    },
+    {
+      "new_path": "research/owx-cli.mjs",
+      "additions": {
+        "human": 416
+      }
+    },
+    {
+      "new_path": "research/owx-cli_pkg.json",
+      "additions": {
+        "human": 30
+      }
+    },
+    {
+      "new_path": "research/owx-cli_tree.json",
+      "additions": {
+        "human": 84
+      }
+    },
+    {
+      "new_path": "research/owx-hao_tree.json",
+      "additions": {
+        "human": 383
+      }
+    },
+    {
+      "new_path": "research/owx_README.md",
+      "additions": {
+        "human": 351
+      }
+    },
+    {
+      "new_path": "research/owx_README_zh.md",
+      "additions": {
+        "human": 347
+      }
+    },
+    {
+      "new_path": "research/owx_dist_index.js",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "new_path": "research/owx_filetree.json",
+      "additions": {
+        "human": 834
+      }
+    },
+    {
+      "new_path": "research/owx_index.ts",
+      "additions": {
+        "human": 19
+      }
+    },
+    {
+      "new_path": "research/owx_package.json",
+      "additions": {
+        "human": 67
+      }
+    },
+    {
+      "new_path": "research/owx_package_jsdelivr.json",
+      "additions": {
+        "human": 67
+      }
+    },
+    {
+      "new_path": "research/owx_src_accounts.ts",
+      "additions": {
+        "human": 391
+      }
+    },
+    {
+      "new_path": "research/owx_src_api.ts",
+      "additions": {
+        "human": 586
+      }
+    },
+    {
+      "new_path": "research/owx_src_channel.ts",
+      "additions": {
+        "human": 544
+      }
+    },
+    {
+      "new_path": "research/owx_src_config-schema.ts",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "research/owx_src_login-qr.ts",
+      "additions": {
+        "human": 458
+      }
+    },
+    {
+      "new_path": "research/owx_src_pairing.ts",
+      "additions": {
+        "human": 120
+      }
+    },
+    {
+      "new_path": "research/owx_src_types.ts",
+      "additions": {
+        "human": 278
+      }
+    },
+    {
+      "new_path": "research/protocol.md",
+      "additions": {
+        "human": 95
+      }
+    },
+    {
+      "new_path": "research/siverking_README.md",
+      "additions": {
+        "human": 315
+      }
+    },
+    {
+      "new_path": "research/tencent_play.html",
+      "additions": {
+        "human": 78
+      }
+    },
+    {
+      "new_path": "research/wechat-claude-bridge.mjs",
+      "additions": {
+        "human": 340
+      }
+    },
+    {
+      "new_path": "research/weixin-bot-api_b.md",
+      "additions": {
+        "human": 401
+      }
+    },
+    {
+      "new_path": "research/wx-robot-ilink_README.md",
+      "additions": {
+        "human": 129
+      }
+    },
+    {
+      "new_path": "research/wx-robot-ilink_env",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "research/wx-robot-ilink_pkg.json",
+      "additions": {
+        "human": 23
+      }
+    },
+    {
+      "new_path": "research/wx-robot-ilink_tree.json",
+      "additions": {
+        "human": 101
+      }
+    },
+    {
+      "new_path": "research/wx-robot-ilink_tree_master.json",
+      "additions": {
+        "human": 101
+      }
+    },
+    {
+      "new_path": "research/wxilink_api.ts",
+      "additions": {
+        "human": 130
+      }
+    },
+    {
+      "new_path": "research/wxilink_auth.ts",
+      "additions": {
+        "human": 125
+      }
+    },
+    {
+      "new_path": "research/wxilink_bot.ts",
+      "additions": {
+        "human": 127
+      }
+    },
+    {
+      "new_path": "research/wxilink_chat.ts",
+      "additions": {
+        "human": 69
+      }
+    },
+    {
+      "new_path": "research/wxilink_index.ts",
+      "additions": {
+        "human": 43
+      }
+    },
+    {
+      "new_path": "research/wxilink_types.ts",
+      "additions": {
+        "human": 71
+      }
+    },
+    {
+      "new_path": "tauri-shell/.gitignore",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "new_path": "tauri-shell/Cargo.lock",
+      "additions": {
+        "human": 5162
+      }
+    },
+    {
+      "new_path": "tauri-shell/Cargo.toml",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": "tauri-shell/audit-linux-bundle.mjs",
+      "additions": {
+        "human": 153
+      }
+    },
+    {
+      "new_path": "tauri-shell/build.rs",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "tauri-shell/gen-distribution-descriptor.mjs",
+      "additions": {
+        "human": 101
+      }
+    },
+    {
+      "new_path": "tauri-shell/gen/schemas/acl-manifests.json",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "tauri-shell/gen/schemas/capabilities.json",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "new_path": "tauri-shell/gen/schemas/desktop-schema.json",
+      "additions": {
+        "human": 2292
+      }
+    },
+    {
+      "new_path": "tauri-shell/gen/schemas/linux-schema.json",
+      "additions": {
+        "human": 2292
+      }
+    },
+    {
+      "new_path": "tauri-shell/gen/schemas/macOS-schema.json",
+      "additions": {
+        "human": 2292
+      }
+    },
+    {
+      "new_path": "tauri-shell/gen/schemas/windows-schema.json",
+      "additions": {
+        "human": 2292
+      }
+    },
+    {
+      "new_path": "tauri-shell/installer-hooks.nsh",
+      "additions": {
+        "human": 176
+      }
+    },
+    {
+      "new_path": "tauri-shell/make-portable.mjs",
+      "additions": {
+        "human": 94
+      }
+    },
+    {
+      "new_path": "tauri-shell/sidecar/bridge.ts",
+      "additions": {
+        "human": 838
+      }
+    },
+    {
+      "new_path": "tauri-shell/sidecar/phone-bridge.ts",
+      "additions": {
+        "human": 743
+      }
+    },
+    {
+      "new_path": "tauri-shell/sidecar/rescue-integration.ts",
+      "additions": {
+        "human": 507
+      }
+    },
+    {
+      "new_path": "tauri-shell/sidecar/server.ts",
+      "additions": {
+        "human": 1544
+      }
+    },
+    {
+      "new_path": "tauri-shell/src/exit-overlay.js",
+      "additions": {
+        "human": 87
+      }
+    },
+    {
+      "new_path": "tauri-shell/src/main.rs",
+      "additions": {
+        "human": 2774
+      }
+    },
+    {
+      "new_path": "tauri-shell/stage-kernel-manifest.mjs",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "tauri-shell/stage-linux-sanitize.mjs",
+      "additions": {
+        "human": 37
+      }
+    },
+    {
+      "new_path": "tauri-shell/stage-platform-cache.mjs",
+      "additions": {
+        "human": 14
+      }
+    },
+    {
+      "new_path": "tauri-shell/stage-platform-prune.mjs",
+      "additions": {
+        "human": 49
+      }
+    },
+    {
+      "new_path": "tauri-shell/stage-resources.mjs",
+      "additions": {
+        "human": 533
+      }
+    },
+    {
+      "new_path": "tauri-shell/tauri.conf.json",
+      "additions": {
+        "human": 41
+      }
+    },
+    {
+      "new_path": "tauri-shell/tauri.linux.conf.json",
+      "additions": {
+        "human": 12
+      }
+    },
+    {
+      "new_path": "tauri-shell/tauri.macos.conf.json",
+      "additions": {
+        "human": 15
+      }
+    },
+    {
+      "new_path": "tauri-shell/tauri.windows.conf.json",
+      "additions": {
+        "human": 8
+      }
+    },
+    {
+      "new_path": "tmp-macos-smoke/dsh-web.log.before",
+      "additions": {
+        "human": 913
+      }
+    },
+    {
+      "new_path": "ui-verify-smoke.js",
+      "additions": {
+        "human": 383
+      }
+    },
+    {
+      "new_path": "update-smoke.js",
+      "additions": {
+        "human": 119
+      }
+    },
+    {
+      "new_path": "verify-delete-session.js",
+      "additions": {
+        "human": 277
+      }
+    },
+    {
+      "new_path": "verify-phone-pair.cjs",
+      "additions": {
+        "human": 248
+      }
+    },
+    {
+      "new_path": "verify-shim-fix.cjs",
+      "additions": {
+        "human": 188
+      }
+    },
+    {
+      "new_path": "verify-viewport-heal.js",
+      "additions": {
+        "human": 134
+      }
+    },
+    {
+      "new_path": "verify-viewport-lock.cjs",
+      "additions": {
+        "human": 159
+      }
+    }
+  ]
+}
