@@ -525,17 +525,12 @@
     var style = document.createElement('style');
     style.textContent = '\
 #' + BAR_ID + '{position:fixed;top:0;left:0;right:0;height:' + BAR_HEIGHT + 'px;z-index:2147483000;\
-  display:flex;align-items:center;justify-content:space-between;padding:0 6px 0 ' + (IS_MAC ? '70px' : '10px') + ';\
+  display:flex;align-items:center;justify-content:flex-end;padding:0 6px 0 ' + (IS_MAC ? '70px' : '10px') + ';\
   user-select:none;box-sizing:border-box;cursor:default;\
   font-family:var(--dsw-font-family,"Segoe UI","Microsoft YaHei",system-ui,sans-serif);\
   background:color-mix(in srgb,var(--dsw-alias-bg-base,#0b1220) 74%,transparent);\
   backdrop-filter:blur(16px) saturate(1.5);-webkit-backdrop-filter:blur(16px) saturate(1.5);\
   border-bottom:1px solid color-mix(in srgb,var(--dsw-alias-border-l1,rgba(255,255,255,.09)) 55%,transparent)}\
-#' + BAR_ID + ' .dch-left{display:flex;align-items:center;gap:8px;min-width:0}\
-#' + BAR_ID + ' .dch-icon{width:20px;height:20px;border-radius:6px;display:block;flex:none;\
-  background:#f6f8fc;box-shadow:0 1px 3px rgba(0,0,0,.35)}\
-#' + BAR_ID + ' .dch-title{font-size:12.5px;font-weight:600;letter-spacing:.2px;line-height:16px;\
-  color:var(--dsw-alias-label-primary,#e6ecff);white-space:nowrap}\
 #' + BAR_ID + ' .dch-right{display:flex;align-items:center;gap:2px}\
 #' + BAR_ID + ' .dch-btn{width:30px;height:28px;display:grid;place-items:center;border:none;border-radius:8px;\
   background:transparent;color:var(--dsw-alias-label-secondary,#b8c5ea);cursor:pointer;padding:0;outline:none;transition:background .12s,color .12s}\
@@ -609,11 +604,9 @@
       <button class="dch-btn" data-act="min" title="最小化" aria-label="最小化">' + GLYPHS.min + '</button>\
       <button class="dch-btn" data-act="max" title="最大化" aria-label="最大化">' + GLYPHS.max + '</button>\
       <button class="dch-btn dch-close" data-act="close" title="关闭" aria-label="关闭">' + GLYPHS.close + '</button>';
+    // 标题栏左侧保持空白（无图标/无文字标题）：macOS 只留原生红绿灯，
+    // 应用入口 = 右侧 ⋯ 菜单；整条栏 = 拖拽区。
     bar.innerHTML = '\
-    <div class="dch-left">\
-      <img class="dch-icon" alt="" draggable="false" />\
-      <span class="dch-title">Deepseek Harness EAC</span>\
-    </div>\
     <div class="dch-right">\
       <button class="dch-btn" data-act="menu" title="菜单" aria-label="菜单">' + GLYPHS.menu + '</button>\
 ' + macWinBtns + '\
@@ -622,14 +615,13 @@
     <div class="dch-menu" hidden></div>';
     document.body.appendChild(bar);
 
-    var icon = bar.querySelector('.dch-icon') as HTMLImageElement | null;
     maxBtn = bar.querySelector('[data-act="max"]') as HTMLElement | null;
     menuEl = bar.querySelector('.dch-menu') as HTMLElement | null;
     statusEl = bar.querySelector('.dch-status') as HTMLElement | null;
 
-    // 只 arm bar 一层：.dch-left 是 bar 子元素，mousedown 会冒泡到 bar；
-    // 两层各自持有 lastClick 闭包会让左半栏双击 toggle 两次（净零）= 双击
-    // 最大化失效 + 每次按下多发一次拖拽事件（浮窗栏 L476 是正确单层样板）。
+    // 只 arm bar 一层：若对子元素单独 arm，两层各自 lastClick 闭包会让
+    // 双击 toggle 两次（净零）= 双击最大化失效 + 每次按下多发一次拖拽事件
+    //（浮窗栏是正确单层样板）。
     armDrag(bar);
     var minBtn = bar.querySelector('[data-act="min"]');
     if (minBtn) minBtn.addEventListener('click', function () { dshDesktop.windowControls.minimize(); });
@@ -647,21 +639,16 @@
     });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeMenu(); });
 
-    // 初始化状态。chrome.init 在首启重载（市场播种/插件同步）下可能超时，
-    // 失败后标题栏 logo 永远停在白方块 —— 指数退避重试至拿到 iconDataUri。
+    // 初始化状态。chrome.init 在首启重载（市场播种/插件同步）下可能超时 ——
+    // 失败退避重试，保证 ⋯ 菜单头部的版本号可用。
     (function initInfo(attempt: number): void {
       dshDesktop.getInfo().then(function (info: any) {
         if (!info) return;
         state = Object.assign({}, state, info);
         // 版本号不再渲染到标题栏（⋯ 菜单头部完整展示封装/agent 版本）。
         if (info.appVersion) dshDesktop.appVersion = info.appVersion;
-        if (icon && info.iconDataUri) {
-          icon.src = info.iconDataUri;
-        } else if (attempt < 5) {
-          window.setTimeout(function () { initInfo(attempt + 1); }, 1000 * attempt);
-        }
       }).catch(function () {
-        // 信息不可用不阻塞界面；icon 缺失时退避重试（见上）。
+        // 信息不可用不阻塞界面；退避重试至菜单版本号可用。
         if (attempt < 5) window.setTimeout(function () { initInfo(attempt + 1); }, 1000 * attempt);
       });
     })(0);
