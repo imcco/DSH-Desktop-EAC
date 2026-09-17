@@ -69,9 +69,15 @@ fn ws_port() -> u16 {
 /// 后页面上下文会重建；仅注入裸 BRIDGE_JS 会让客户端退回固定的
 /// 19873，端口发生回退时窗口控制全部失效。
 fn bridge_init_script() -> String {
+    // 平台标记：桥据此切换 macOS 原生红绿灯标题栏（自绘按钮避让左上角）。
+    #[cfg(target_os = "macos")]
+    let platform = "macos";
+    #[cfg(not(target_os = "macos"))]
+    let platform = "other";
     format!(
-        "window.__DSH_BRIDGE_WS__='ws://127.0.0.1:{}/ws';\n{}",
+        "window.__DSH_BRIDGE_WS__='ws://127.0.0.1:{}/ws';\nwindow.__DSH_PLATFORM__='{}';\n{}",
         ws_port(),
+        platform,
         BRIDGE_JS,
     )
 }
@@ -1510,12 +1516,24 @@ fn open_float_window(app: &tauri::AppHandle, session_id: &str) -> Result<bool, S
         .title(ui_text("DSH 会话", "DSH Session"))
         .inner_size(900.0, 640.0)
         .min_inner_size(480.0, 360.0)
-        .decorations(false)
+        // 窗口装饰平台分派在链尾（macOS 原生红绿灯 / 其它平台无边框自绘，见下）。
         .data_directory(data_dir)
         // 关闭 Tauri 窗口级 drag&drop handler：否则 Windows 上页面收不到
         // HTML5 拖拽（dragover/drop），图片/文件拖不进输入框。
         .disable_drag_drop_handler()
         .initialization_script(&init);
+    // 与主窗同款平台分派：macOS 原生红绿灯（浮窗 24px 细条左侧让位，桥层
+    // 隐藏自绘关闭钮）；其它平台无边框自绘标题栏。
+    #[cfg(target_os = "macos")]
+    {
+        builder = builder
+            .title_bar_style(tauri::TitleBarStyle::Overlay)
+            .hidden_title(true);
+    }
+    #[cfg(not(target_os = "macos"))]
+    {
+        builder = builder.decorations(false);
+    }
     // 独立 data_directory = 独立 WebView2 环境（独立浏览器进程），不继承主窗
     // 的调试参数 —— 显式透传（保持 Tauri 默认禁用项不变；无该环境变量时零差异）。
     if let Ok(extra) = std::env::var("WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS") {
@@ -2446,7 +2464,8 @@ fn main() {
                                     .title("Deepseek Harness EAC")
                                     .inner_size(sim_w, sim_h)
                                     .min_inner_size(eff_min_w, eff_min_h)
-                                    .decorations(false)
+                                    // 窗口装饰平台分派在链尾（macOS 原生红绿灯 /
+                                    // 其它平台无边框自绘标题栏，见下方 cfg 块）。
                                     // 关闭窗口级 drag&drop handler，放行页面 HTML5 拖拽
                                     //（否则图片/文件拖不进输入框，页面 dragover/drop 收不到）。
                                     .disable_drag_drop_handler()
@@ -2459,6 +2478,22 @@ fn main() {
                                     // 与浮窗（显式拼接该前缀）行为分裂。
                                     .additional_browser_args("--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection --autoplay-policy=no-user-gesture-required")
                                     .initialization_script(&bridge_init_script());
+                                    // macOS：保留原生标题栏红绿灯（红关/黄小/绿大），
+                                    // Overlay 让 web 内容全尺寸上移、隐藏标题文字 ——
+                                    // 不能用 decorations(false)（macOS 上会连红绿灯
+                                    // 一起移除）；桥层据此在自绘玻璃栏左侧让位 70px
+                                    // 并隐藏自绘 min/max/close（⋯ 菜单保留）。
+                                    // 非 macOS：无边框 + 桥自绘 36px 玻璃标题栏。
+                                    #[cfg(target_os = "macos")]
+                                    {
+                                        builder = builder
+                                            .title_bar_style(tauri::TitleBarStyle::Overlay)
+                                            .hidden_title(true);
+                                    }
+                                    #[cfg(not(target_os = "macos"))]
+                                    {
+                                        builder = builder.decorations(false);
+                                    }
                                     if let Some((px, py)) = sim_pos {
                                         builder = builder.position(px, py);
                                     }

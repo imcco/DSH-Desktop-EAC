@@ -19,6 +19,14 @@
   var FLOAT_BAR_ID = '__dsh_desktop_floatbar__';
   var FLOAT_BAR_HEIGHT = 24;
 
+  // macOS 原生红绿灯（Tauri Overlay 标题栏）：系统红/黄/绿按钮悬浮在窗口
+  // 左上角（约 70px 宽区域）。自绘标题栏据此左侧让位、隐藏自绘 min/max/
+  // close（⋯ 菜单保留）。平台标记优先取 Rust 壳注入（bridge_init_script），
+  // 旧壳无注入时回退 UA 检测（WKWebView 恒含 Macintosh）。
+  var IS_MAC: boolean =
+    (window as any).__DSH_PLATFORM__ === 'macos' ||
+    /Macintosh|Mac OS X/i.test(navigator.userAgent);
+
   // 回环 WS JSON-RPC 客户端（单源：assets/ws-jsonrpc-client.js，Rust 壳在
   // initialization_script 序列中先注入本桥）。connect/queue/call/重连逻辑
   // 只存在于单源文件；这里只做钩子接线与语义别名。
@@ -484,7 +492,7 @@
     var style = document.createElement('style');
     style.textContent = '\
   #' + FLOAT_BAR_ID + '{position:fixed;top:0;left:0;right:0;height:' + FLOAT_BAR_HEIGHT + 'px;z-index:2147483000;\
-    display:flex;align-items:center;justify-content:flex-end;gap:2px;padding:0 6px 0 10px;\
+    display:flex;align-items:center;justify-content:flex-end;gap:2px;padding:0 6px 0 ' + (IS_MAC ? '70px' : '10px') + ';\
     user-select:none;box-sizing:border-box;cursor:default;\
     background:color-mix(in srgb,var(--dsw-alias-bg-base,#0b1220) 70%,transparent);\
     backdrop-filter:blur(16px) saturate(1.5);-webkit-backdrop-filter:blur(16px) saturate(1.5);\
@@ -502,7 +510,8 @@
     document.documentElement.setAttribute('data-dsh-title-bar-height', String(FLOAT_BAR_HEIGHT));
     var bar = document.createElement('div');
     bar.id = FLOAT_BAR_ID;
-    bar.innerHTML = '<button class="df-close" title="关闭" aria-label="关闭">' + GLYPHS.close + '</button>';
+    // macOS：原生红绿灯承担关/小/大，自绘关闭钮不再渲染（细条左侧已让位 70px）。
+    bar.innerHTML = IS_MAC ? '' : '<button class="df-close" title="关闭" aria-label="关闭">' + GLYPHS.close + '</button>';
     document.body.appendChild(bar);
     armDrag(bar);
     var closeBtn = bar.querySelector('.df-close');
@@ -516,7 +525,7 @@
     var style = document.createElement('style');
     style.textContent = '\
 #' + BAR_ID + '{position:fixed;top:0;left:0;right:0;height:' + BAR_HEIGHT + 'px;z-index:2147483000;\
-  display:flex;align-items:center;justify-content:space-between;padding:0 6px 0 10px;\
+  display:flex;align-items:center;justify-content:space-between;padding:0 6px 0 ' + (IS_MAC ? '70px' : '10px') + ';\
   user-select:none;box-sizing:border-box;cursor:default;\
   font-family:var(--dsw-font-family,"Segoe UI","Microsoft YaHei",system-ui,sans-serif);\
   background:color-mix(in srgb,var(--dsw-alias-bg-base,#0b1220) 74%,transparent);\
@@ -597,6 +606,12 @@
 
     var bar = document.createElement('div');
     bar.id = BAR_ID;
+    // macOS：原生红绿灯承担关/小/大，自绘 min/max/close 不渲染（栏左侧已让位
+    // 70px）；⋯ 菜单保留（应用菜单唯一入口：退出策略/更新/日志/关于）。
+    var macWinBtns = IS_MAC ? '' : '\
+      <button class="dch-btn" data-act="min" title="最小化" aria-label="最小化">' + GLYPHS.min + '</button>\
+      <button class="dch-btn" data-act="max" title="最大化" aria-label="最大化">' + GLYPHS.max + '</button>\
+      <button class="dch-btn dch-close" data-act="close" title="关闭" aria-label="关闭">' + GLYPHS.close + '</button>';
     bar.innerHTML = '\
     <div class="dch-left">\
       <img class="dch-icon" alt="" draggable="false" />\
@@ -605,9 +620,7 @@
     </div>\
     <div class="dch-right">\
       <button class="dch-btn" data-act="menu" title="菜单" aria-label="菜单">' + GLYPHS.menu + '</button>\
-      <button class="dch-btn" data-act="min" title="最小化" aria-label="最小化">' + GLYPHS.min + '</button>\
-      <button class="dch-btn" data-act="max" title="最大化" aria-label="最大化">' + GLYPHS.max + '</button>\
-      <button class="dch-btn dch-close" data-act="close" title="关闭" aria-label="关闭">' + GLYPHS.close + '</button>\
+' + macWinBtns + '\
     </div>\
     <div class="dch-status" role="status" aria-live="polite" hidden></div>\
     <div class="dch-menu" hidden></div>';
