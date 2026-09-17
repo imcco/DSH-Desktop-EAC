@@ -536,9 +536,6 @@
   background:#f6f8fc;box-shadow:0 1px 3px rgba(0,0,0,.35)}\
 #' + BAR_ID + ' .dch-title{font-size:12.5px;font-weight:600;letter-spacing:.2px;line-height:16px;\
   color:var(--dsw-alias-label-primary,#e6ecff);white-space:nowrap}\
-#' + BAR_ID + ' .dch-badge{font-size:10px;line-height:14px;padding:1px 6px;border-radius:999px;\
-  color:var(--dsw-alias-label-tertiary,#93a5d8);border:1px solid var(--dsw-alias-border-l1,rgba(255,255,255,.09));\
-  white-space:nowrap;font-family:var(--ds-font-family-code,Consolas,monospace)}\
 #' + BAR_ID + ' .dch-right{display:flex;align-items:center;gap:2px}\
 #' + BAR_ID + ' .dch-btn{width:30px;height:28px;display:grid;place-items:center;border:none;border-radius:8px;\
   background:transparent;color:var(--dsw-alias-label-secondary,#b8c5ea);cursor:pointer;padding:0;outline:none;transition:background .12s,color .12s}\
@@ -616,7 +613,6 @@
     <div class="dch-left">\
       <img class="dch-icon" alt="" draggable="false" />\
       <span class="dch-title">Deepseek Harness EAC</span>\
-      <span class="dch-badge" hidden></span>\
     </div>\
     <div class="dch-right">\
       <button class="dch-btn" data-act="menu" title="菜单" aria-label="菜单">' + GLYPHS.menu + '</button>\
@@ -626,7 +622,6 @@
     <div class="dch-menu" hidden></div>';
     document.body.appendChild(bar);
 
-    var badge = bar.querySelector('.dch-badge') as HTMLElement | null;
     var icon = bar.querySelector('.dch-icon') as HTMLImageElement | null;
     maxBtn = bar.querySelector('[data-act="max"]') as HTMLElement | null;
     menuEl = bar.querySelector('.dch-menu') as HTMLElement | null;
@@ -658,12 +653,8 @@
       dshDesktop.getInfo().then(function (info: any) {
         if (!info) return;
         state = Object.assign({}, state, info);
-        if (info.appVersion) {
-          dshDesktop.appVersion = info.appVersion;
-          if (badge) badge.textContent = 'v' + info.appVersion;
-        }
-        if (badge && info.agentVersion) badge.title = 'agent v' + info.agentVersion + '（' + info.agentSource + '）';
-        if (badge && info.agentVersion) { badge.hidden = false; }
+        // 版本号不再渲染到标题栏（⋯ 菜单头部完整展示封装/agent 版本）。
+        if (info.appVersion) dshDesktop.appVersion = info.appVersion;
         if (icon && info.iconDataUri) {
           icon.src = info.iconDataUri;
         } else if (attempt < 5) {
