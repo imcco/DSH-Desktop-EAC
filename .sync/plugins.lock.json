@@ -823,7 +823,7 @@
         "packageName": "@deepseek-ai/dsh-git-branch",
         "packageVersion": "0.1.0",
         "path": "dsh-desktop/assets/plugins/dsh-git-branch",
-        "treeSha256": "526ddfca7f56a3d389ce0261c72b2fcc116231ca4681b0325ab45d58f8815735"
+        "treeSha256": "601d89e9af05caa3aaa94facea2b8c0595621708f78632d8c9763e4ef6cce4ac"
       },
       "manifestEntrySha256": "656127ea27164d3ee4a809c6a8290a9897438a8889470e7440569c100b1b6a74",
       "patchFiles": [],
@@ -834,7 +834,7 @@
       "source": {
         "kind": "internal",
         "name": "@deepseek-ai/dsh-git-branch",
-        "sha256": "526ddfca7f56a3d389ce0261c72b2fcc116231ca4681b0325ab45d58f8815735",
+        "sha256": "601d89e9af05caa3aaa94facea2b8c0595621708f78632d8c9763e4ef6cce4ac",
         "version": "0.1.0"
       },
       "sourceCommit": null
