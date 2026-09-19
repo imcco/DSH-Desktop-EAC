@@ -1,0 +1,19 @@
+---
+{
+  "schema_version": "authorship/3.1.0",
+  "tlab_version": "0.12.1",
+  "base_commit_sha": "d1a1da25b7ee6da1eefc7f2752f350e69367aafa",
+  "prompts": {},
+  "changes": [
+    {
+      "old_path": "dsh-desktop/scripts/fetch-kernel.ts",
+      "new_path": "dsh-desktop/scripts/fetch-kernel.ts",
+      "additions": {
+        "human": 16
+      },
+      "deletions": {
+        "human": 9
+      }
+    }
+  ]
+}
