@@ -34,6 +34,7 @@ export const LITE_DEFAULT_DISABLED: readonly string[] = [
   'dsh-stt',                     // 本地离线语音识别（启用后下载 SenseVoice 模型 ~230MB）
   'dsh-pet-settings',            // 桌宠设置分区（桌宠默认停用时无对象可管）
   'composer-dynamic-island',     // 输入灵动岛（改变输入区形态）
+  'git-branch',                  // git 分支 chip（输入区控件，与灵动岛同形态）
   'side-session',                // 侧边临时会话
   'float-window',                // 会话浮窗分屏
   'message-rewind',              // 消息回退编辑

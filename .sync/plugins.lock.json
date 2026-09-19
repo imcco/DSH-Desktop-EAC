@@ -1,7 +1,7 @@
 {
   "generatedRegistry": "dsh-desktop/lib/desktop/plugin-sync-registry.ts",
   "manifest": ".sync/plugins.json",
-  "manifestRevision": "2be58904737bf3cc90b2321080faf4085c4714e0957a7a6acb567fcbfb3c5263",
+  "manifestRevision": "ce6a545afbd5fa3bf88490667d33f28c704621ff4c76d8d38015d8653779ba69",
   "plugins": {
     "agent-teams": {
       "compatibility": {},
@@ -807,6 +807,34 @@
       "source": {
         "kind": "unknown",
         "sha256": "de5856e29f298796a88ffbaca1c4cdb24f2ccb1c5b4055ec10453f606145c218",
+        "version": "0.1.0"
+      },
+      "sourceCommit": null
+    },
+    "git-branch": {
+      "compatibility": {},
+      "local": {
+        "entrypoints": [
+          "lib/index.js"
+        ],
+        "excludedPaths": [],
+        "fileCount": 7,
+        "license": "MIT",
+        "packageName": "@deepseek-ai/dsh-git-branch",
+        "packageVersion": "0.1.0",
+        "path": "dsh-desktop/assets/plugins/dsh-git-branch",
+        "treeSha256": "4601234a4b48d7f8a8105075ec2544c948ca538d4cb1c4f842e677c486013d85"
+      },
+      "manifestEntrySha256": "656127ea27164d3ee4a809c6a8290a9897438a8889470e7440569c100b1b6a74",
+      "patchFiles": [],
+      "patchSet": "none",
+      "patchSetSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "requested": "0.1.0",
+      "runtimeUpdate": "disabled",
+      "source": {
+        "kind": "internal",
+        "name": "@deepseek-ai/dsh-git-branch",
+        "sha256": "4601234a4b48d7f8a8105075ec2544c948ca538d4cb1c4f842e677c486013d85",
         "version": "0.1.0"
       },
       "sourceCommit": null

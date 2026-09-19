@@ -1,0 +1,4 @@
+# dsh-git-branch — bundle patch: inserts the git-branch plugin row.
+- insert:
+    - id: git-branch
+      name: '@deepseek-ai/dsh-git-branch'

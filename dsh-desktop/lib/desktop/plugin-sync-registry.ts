@@ -475,6 +475,22 @@ export const PLUGIN_SYNC_REGISTRY = {
       },
       "syncMode": "manual"
     },
+    "git-branch": {
+      "class": "internal",
+      "kind": "plugin",
+      "packageName": "@deepseek-ai/dsh-git-branch",
+      "path": "dsh-desktop/assets/plugins/dsh-git-branch",
+      "runtimeUpdate": {
+        "allowed": false,
+        "defaultAction": "prompt"
+      },
+      "source": {
+        "kind": "internal",
+        "name": "@deepseek-ai/dsh-git-branch",
+        "reason": "maintained in this repository; no external source is declared"
+      },
+      "syncMode": "manual"
+    },
     "image-paste": {
       "class": "manual",
       "kind": "plugin",

@@ -210,6 +210,13 @@ export const COMPANION_PLUGINS: CompanionPluginDef[] = [
   // 选定按钮收纳为向上展开的紧凑岛，不移动宿主 React 节点；仅在已确认的
   // composer surface 内发现控件，设置只持久化启用状态与控件标识。
   { id: 'composer-dynamic-island', name: 'dsh-composer-dynamic-island', dir: 'dsh-composer-dynamic-island' },
+  // git 灵动岛（EAC 原研）：输入区分支 pill（改动数分色徽标）+ 展开面板，
+  // 三 tab 覆盖 改动（diff/暂存/丢弃）/ 分支（搜索+二次确认切换）/
+  // 提交（全部暂存并提交+最近历史与 commit diff）。git 操作委托
+  // dsh-better-sidebar /sidebar/api，工作区路径取自 dsh-file-changes
+  // session-cwd；非 git 目录自动隐藏。纯客户端（host 半边 no-op），
+  // 可被输入灵动岛收编。
+  { id: 'git-branch', name: '@deepseek-ai/dsh-git-branch', dir: 'dsh-git-branch' },
   // 插件启停管理：设置页「插件 → 管理」标签，不重启切换插件启停
   // （IPC dsh:plugin-list / dsh:plugin-set-enabled，见下方接线）。
   { id: 'plugin-manager', name: '@deepseek-ai/dsh-plugin-manager' },

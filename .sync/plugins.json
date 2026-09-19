@@ -1806,6 +1806,42 @@
       },
       "owner": "desktop-plugins",
       "defaultDisabled": true
+    },
+    {
+      "id": "git-branch",
+      "kind": "plugin",
+      "path": "dsh-desktop/assets/plugins/dsh-git-branch",
+      "packageName": "@deepseek-ai/dsh-git-branch",
+      "class": "internal",
+      "source": {
+        "kind": "internal",
+        "name": "@deepseek-ai/dsh-git-branch",
+        "reason": "maintained in this repository; no external source is declared"
+      },
+      "request": {
+        "mode": "exact",
+        "version": "0.1.0"
+      },
+      "sync": {
+        "mode": "manual",
+        "patches": [],
+        "preservePaths": []
+      },
+      "runtimeUpdate": {
+        "allowed": false,
+        "defaultAction": "prompt"
+      },
+      "validation": {
+        "entrypoints": [
+          "lib/index.js"
+        ],
+        "commands": []
+      },
+      "license": {
+        "expected": "MIT",
+        "reviewOnChange": true
+      },
+      "owner": "desktop-plugins"
     }
   ],
   "skins": [
