@@ -1,0 +1,36 @@
+---
+{
+  "schema_version": "authorship/3.1.0",
+  "tlab_version": "0.12.1",
+  "base_commit_sha": "92608f1156ad10b3a7ed579cd1acf603b46e7171",
+  "prompts": {},
+  "changes": [
+    {
+      "old_path": ".sync/plugins.lock.json",
+      "new_path": ".sync/plugins.lock.json",
+      "additions": {
+        "human": 2
+      },
+      "deletions": {
+        "human": 2
+      }
+    },
+    {
+      "old_path": "dsh-desktop/assets/plugins/dsh-file-changes/lib/index.js",
+      "new_path": "dsh-desktop/assets/plugins/dsh-file-changes/lib/index.js",
+      "additions": {
+        "human": 3
+      },
+      "deletions": {
+        "human": 2
+      }
+    },
+    {
+      "old_path": "dsh-desktop/docs/GIT-BRANCH-ISLAND-PLAN.md",
+      "new_path": "dsh-desktop/docs/GIT-BRANCH-ISLAND-PLAN.md",
+      "additions": {
+        "human": 1
+      }
+    }
+  ]
+}
