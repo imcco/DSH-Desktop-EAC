@@ -400,7 +400,8 @@ async function handleCheckRoute(req, res) {
 // ---------------------------------------------------------------------------
 // 会话 cwd 查询：GET /api/dsh-files/session-cwd?sessionId=...
 // 客户端视图（文件树 / 终端）用它确定项目根目录——不依赖页面内部 hooks。
-// 数据源与会话监视器一致：<DSH_HOME>/sessions/**/session.jsonl.zstd 的文件头。
+// 数据源与会话监视器一致：<DSH_HOME>/sessions/**/session(.v3).jsonl.zstd 的文件头
+//（v3 为当前会话存储格式，首行同样携带 id/cwd；两代文件名均匹配）。
 // ---------------------------------------------------------------------------
 
 const ZSTD_MAGIC = 4247762216;
@@ -457,7 +458,7 @@ function findSessionCwd(sessionId) {
         if (cwd) return;
         const p = join(dir, e.name);
         if (e.isDirectory()) walk(p);
-        else if (e.name === "session.jsonl.zstd") {
+        else if (e.name === "session.jsonl.zstd" || e.name === "session.v3.jsonl.zstd") {
           try {
             const buf = readFileSync(p);
             const frame = scanFirstZstdFrame(buf);

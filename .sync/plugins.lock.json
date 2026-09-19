@@ -712,7 +712,7 @@
         "packageName": "@deepseek-ai/dsh-file-changes",
         "packageVersion": "0.1.0",
         "path": "dsh-desktop/assets/plugins/dsh-file-changes",
-        "treeSha256": "9a6ba31c271aa4f316a55155e245b6adf23730f11254094f983128d9938e079e"
+        "treeSha256": "e34134bea781968d09723100cdb99088c6cd79bb2195ebf3cbaaaca816e3255c"
       },
       "manifestEntrySha256": "44ac80cfe38428ccfd15ef965a1e9732d132f373f8afa472e0c932fe82da7007",
       "patchFiles": [],
@@ -723,7 +723,7 @@
       "source": {
         "kind": "internal",
         "name": "@deepseek-ai/dsh-file-changes",
-        "sha256": "9a6ba31c271aa4f316a55155e245b6adf23730f11254094f983128d9938e079e",
+        "sha256": "e34134bea781968d09723100cdb99088c6cd79bb2195ebf3cbaaaca816e3255c",
         "version": "0.1.0"
       },
       "sourceCommit": null

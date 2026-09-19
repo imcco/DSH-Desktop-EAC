@@ -134,3 +134,4 @@ diff 来源优先级:有工作区改动 → worktree diff;仅暂存 → staged d
 | 大仓库 `git status --untracked-files=all` 偏慢 | 15s 轮询 + 仅聚焦/操作时刷新;端点侧已有 30s 超时 |
 | 未跟踪文件 diff 为空 | 回退 `fs.read` 内容展示,二进制给占位提示 |
 | 无新建分支端点 | UI 不出现该入口,README 明确「本期不做」 |
+| `session-cwd` 只认旧版 `session.jsonl.zstd`,v3 会话(`session.v3.jsonl.zstd`)解析为空 → chip 恒隐藏 | 已修复:dsh-file-changes `findSessionCwd` 双文件名匹配(首行 header 契约两代一致:`id`/`cwd`) |
