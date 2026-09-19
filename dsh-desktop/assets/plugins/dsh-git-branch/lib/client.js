@@ -1,7 +1,7 @@
 // dsh-git-branch — 输入区 git 灵动岛（Deepseek Harness EAC 原研）
 //
 // 浏览器半边（classic-script bundle，经 __ModuleLoader__.load 注册）：
-//   · 收起态：分支 pill（⎇ 分支名 + 改动数徽标，按 暂存/未暂存/未跟踪 分色）；
+//   · 收起态：分支 pill（git 分支 SVG 图标 + 分支名 + 改动数徽标，按 暂存/未暂存/未跟踪 分色）；
 //   · 展开态：灵动岛面板，三 tab ——
 //       改动：文件清单（状态字符/路径）、过滤、单文件 diff 抽屉、
 //             暂存/取消暂存/丢弃（确认）、全部暂存/取消全部暂存；
@@ -261,7 +261,8 @@
         '.dgb-filter:focus{border-color:color-mix(in srgb,var(--dsw-alias-state-business-primary,#4f7cff) 55%,transparent)}',
         '.dgb-frow{display:flex;align-items:center;gap:6px;padding:4px 6px;border-radius:8px}',
         '.dgb-frow:hover{background:var(--dsw-interactive-bg-hover-solid,rgba(255,255,255,.06))}',
-        '.dgb-glyph{flex:none;width:14px;text-align:center;font-family:var(--ds-font-family-code,Consolas,monospace);font-size:11px;font-weight:700}',
+        '.dgb-glyph{flex:none;width:14px;display:inline-flex;align-items:center;justify-content:center;text-align:center;font-family:var(--ds-font-family-code,Consolas,monospace);font-size:11px;font-weight:700}',
+        '.dgb-glyph svg{display:block;opacity:.95}',
         '.dgb-glyph.g-s{color:#3ecf8e}',
         '.dgb-glyph.g-u{color:#f5a623}',
         '.dgb-glyph.g-n{color:#4fc3f7}',
@@ -317,9 +318,24 @@
       }
 
       // ── 组件 ──
-      // 分支图标用文本字形而非 SVG 字符串：React 子节点是文本（会转义），
-      // 字符串 '<svg…>' 会原样显示成源码；字形跨平台无依赖且天然 XSS 安全。
-      var BRANCH_GLYPH = '⎇';
+      // 分支图标：lucide git-branch 标准几何（24×24，stroke 2）——
+      // 主干线 + 两个圆节点 + 弧线。用 React.createElement 构建 SVG 元素节点
+      //（字符串 '<svg…>' 会当纯文本转义显示成源码，元素节点则正常渲染），
+      // stroke=currentColor 跟随 chip / 面板文字颜色，天然后色模式适配。
+      function BranchIcon(size) {
+        var s = size || 13;
+        return h('svg', {
+          width: s, height: s, viewBox: '0 0 24 24', fill: 'none',
+          stroke: 'currentColor', strokeWidth: '2',
+          strokeLinecap: 'round', strokeLinejoin: 'round',
+          'aria-hidden': 'true', focusable: 'false'
+        },
+          h('line', { x1: '6', x2: '6', y1: '3', y2: '15' }),
+          h('circle', { cx: '18', cy: '6', r: '3' }),
+          h('circle', { cx: '6', cy: '18', r: '3' }),
+          h('path', { d: 'M18 9a9 9 0 0 1-9 9' })
+        );
+      }
       var POLL_MS = 15000;
       var LOG_COUNT = 10;
       var TAB_CHANGES = 'changes';
@@ -762,7 +778,7 @@
               : chip.branch,
             onClick: function () { setOpen(function (v) { return !v; }); }
           },
-            h('span', { className: 'dgb-glyph' }, BRANCH_GLYPH),
+            h('span', { className: 'dgb-glyph' }, BranchIcon(13)),
             h('span', { className: 'dgb-branch' }, displayBranch(chip.branch)),
             chip.dirty
               ? h('i', { className: badgeCls, title: chip.total + ' 处改动' }, chip.total > 9 ? '9+' : String(chip.total))
@@ -770,7 +786,7 @@
           ),
           open ? h('div', { ref: panelRef, className: 'dgb-panel', role: 'dialog', 'aria-label': 'git 灵动岛' },
             h('div', { className: 'dgb-head' },
-              h('span', { className: 'dgb-glyph' }, BRANCH_GLYPH),
+              h('span', { className: 'dgb-glyph' }, BranchIcon(14)),
               h('b', { title: chip.branch }, chip.branch),
               chip.dirty ? h('span', { className: 'dgb-sub' }, chip.total + ' 处改动') : h('span', { className: 'dgb-sub' }, '干净'),
               h('button', {
