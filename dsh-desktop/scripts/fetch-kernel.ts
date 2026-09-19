@@ -172,18 +172,25 @@ function main(): void {
   if (src === undefined) throw new Error('解包后找不到源码目录');
 
   // 补丁 1：pack.ts 走 pnpmInvocation（Windows spawn('pnpm') ENOENT）。
+  // 上游 0.1.6 已合入 pnpmInvocation 重构：新代码已存在时跳过，旧锚点存在时照旧打补丁。
   const packTs = path.join(src, 'scripts', 'release', 'pack.ts');
   let pack = fs.readFileSync(packTs, 'utf8');
   const packAnchor = "await runConcurrent('pnpm', ['--dir', member.directory, 'pack', '--pack-destination', destination])";
-  if (!pack.includes(packAnchor)) throw new Error('pack.ts 锚点未命中，上游脚本已变化，需人工评估补丁');
-  pack = pack.replace(
-    "import { isEntry, runConcurrent } from './process.ts'",
-    "import { pnpmInvocation } from '../pnpm-invocation.ts'\nimport { isEntry, runConcurrent } from './process.ts'",
-  ).replace(
-    packAnchor,
-    "const invocation = pnpmInvocation(['--dir', member.directory, 'pack', '--pack-destination', destination])\n  await runConcurrent(invocation.command, invocation.args)",
-  );
-  fs.writeFileSync(packTs, pack);
+  const packAlready = "const invocation = pnpmInvocation(['--dir', member.directory, 'pack', '--pack-destination', destination])";
+  if (pack.includes(packAlready)) {
+    console.log('fetch-kernel: pack.ts 上游已用 pnpmInvocation，跳过补丁 1');
+  } else if (pack.includes(packAnchor)) {
+    pack = pack.replace(
+      "import { isEntry, runConcurrent } from './process.ts'",
+      "import { pnpmInvocation } from '../pnpm-invocation.ts'\nimport { isEntry, runConcurrent } from './process.ts'",
+    ).replace(
+      packAnchor,
+      "const invocation = pnpmInvocation(['--dir', member.directory, 'pack', '--pack-destination', destination])\n  await runConcurrent(invocation.command, invocation.args)",
+    );
+    fs.writeFileSync(packTs, pack);
+  } else {
+    throw new Error('pack.ts 锚点未命中，上游脚本已变化，需人工评估补丁');
+  }
 
   // 补丁 2：tarball.ts 的 tar 盘符问题（相对路径，GNU tar / bsdtar 通用）。
   const tarballTs = path.join(src, 'scripts', 'release', 'tarball.ts');
