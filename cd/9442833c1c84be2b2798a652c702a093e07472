@@ -1,0 +1,128 @@
+---
+{
+  "schema_version": "authorship/3.1.0",
+  "tlab_version": "0.12.1",
+  "base_commit_sha": "cd9442833c1c84be2b2798a652c702a093e07472",
+  "prompts": {},
+  "changes": [
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/LICENSE",
+      "additions": {
+        "human": 21
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/README.md",
+      "additions": {
+        "human": 27
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/cordis.patch.yml",
+      "additions": {
+        "human": 4
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/dsh-plugin.json",
+      "additions": {
+        "human": 32
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/lib/client.js",
+      "additions": {
+        "human": 845
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/lib/index.js",
+      "additions": {
+        "human": 18
+      }
+    },
+    {
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/package.json",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "new_path": "dsh-desktop/docs/GIT-BRANCH-ISLAND-PLAN.md",
+      "additions": {
+        "human": 136
+      }
+    },
+    {
+      "new_path": "dsh-desktop/test/git-branch-island.test.ts",
+      "additions": {
+        "human": 272
+      }
+    },
+    {
+      "old_path": ".sync/plugins.json",
+      "new_path": ".sync/plugins.json",
+      "additions": {
+        "human": 36
+      }
+    },
+    {
+      "old_path": ".sync/plugins.lock.json",
+      "new_path": ".sync/plugins.lock.json",
+      "additions": {
+        "human": 29
+      },
+      "deletions": {
+        "human": 1
+      }
+    },
+    {
+      "old_path": "dsh-desktop/lib/desktop/companion-sync.ts",
+      "new_path": "dsh-desktop/lib/desktop/companion-sync.ts",
+      "additions": {
+        "human": 7
+      }
+    },
+    {
+      "old_path": "dsh-desktop/lib/desktop/install-profile.ts",
+      "new_path": "dsh-desktop/lib/desktop/install-profile.ts",
+      "additions": {
+        "human": 1
+      }
+    },
+    {
+      "old_path": "dsh-desktop/lib/desktop/plugin-sync-registry.js",
+      "new_path": "dsh-desktop/lib/desktop/plugin-sync-registry.js",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "old_path": "dsh-desktop/lib/desktop/plugin-sync-registry.ts",
+      "new_path": "dsh-desktop/lib/desktop/plugin-sync-registry.ts",
+      "additions": {
+        "human": 16
+      }
+    },
+    {
+      "old_path": "dsh-desktop/test/companion-plugins-registry.test.ts",
+      "new_path": "dsh-desktop/test/companion-plugins-registry.test.ts",
+      "additions": {
+        "human": 2
+      },
+      "deletions": {
+        "human": 2
+      }
+    },
+    {
+      "old_path": "dsh-desktop/test/plugin-sync.test.ts",
+      "new_path": "dsh-desktop/test/plugin-sync.test.ts",
+      "additions": {
+        "human": 2
+      },
+      "deletions": {
+        "human": 2
+      }
+    }
+  ]
+}
