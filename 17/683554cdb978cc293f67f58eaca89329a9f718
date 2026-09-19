@@ -1,0 +1,39 @@
+---
+{
+  "schema_version": "authorship/3.1.0",
+  "tlab_version": "0.12.1",
+  "base_commit_sha": "17683554cdb978cc293f67f58eaca89329a9f718",
+  "prompts": {},
+  "changes": [
+    {
+      "old_path": ".sync/plugins.lock.json",
+      "new_path": ".sync/plugins.lock.json",
+      "additions": {
+        "human": 2
+      },
+      "deletions": {
+        "human": 2
+      }
+    },
+    {
+      "old_path": "dsh-desktop/assets/plugins/dsh-git-branch/README.md",
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/README.md",
+      "additions": {
+        "human": 1
+      },
+      "deletions": {
+        "human": 1
+      }
+    },
+    {
+      "old_path": "dsh-desktop/assets/plugins/dsh-git-branch/lib/client.js",
+      "new_path": "dsh-desktop/assets/plugins/dsh-git-branch/lib/client.js",
+      "additions": {
+        "human": 9
+      },
+      "deletions": {
+        "human": 11
+      }
+    }
+  ]
+}
